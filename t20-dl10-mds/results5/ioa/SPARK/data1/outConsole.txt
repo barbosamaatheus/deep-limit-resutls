@@ -23,14 +23,14 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 CG configuration init
 Enable Spark CG
 CG configuration completed.
-Depth limit: 10
-Configure Soot OA Inter 1.08600
+Depth limit: 20
+Configure Soot OA Inter 1.00800
 Applying package: cg
-Successfully applied package: cg 2.28900
+Successfully applied package: cg 2.26500
 Applying package: wjtp
 countEdges: 4089
-Successfully applied package: wjtp 0.04200
-Time to perform OA Inter 3.42300
+Successfully applied package: wjtp 0.02900
+Time to perform OA Inter 3.30800
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -59,14 +59,14 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 CG configuration init
 Enable Spark CG
 CG configuration completed.
-Depth limit: 10
-Configure Soot OA Inter 1.29900
+Depth limit: 20
+Configure Soot OA Inter 1.13000
 Applying package: cg
-Successfully applied package: cg 1.37300
+Successfully applied package: cg 1.28100
 Applying package: wjtp
 countEdges: 1145
-Successfully applied package: wjtp 0.02100
-Time to perform OA Inter 2.69900
+Successfully applied package: wjtp 0.02200
+Time to perform OA Inter 2.43800
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
