@@ -1,0 +1,8 @@
+Configure Soot OA Inter;1.06400
+Successfully applied package: cg;2.22500
+Successfully applied package: wjtp;0.03000
+Time to perform OA Inter;3.32400
+Configure Soot OA Inter;1.14300
+Successfully applied package: cg;1.35200
+Successfully applied package: wjtp;0.02400
+Time to perform OA Inter;2.52500
