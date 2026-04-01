@@ -23,14 +23,14 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 CG configuration init
 Enable CHA CG
 CG configuration completed.
-Depth limit: 20
-Configure Soot OA Inter 1.04800
+Depth limit: 10
+Configure Soot OA Inter 1.06400
 Applying package: cg
-Successfully applied package: cg 2.34100
+Successfully applied package: cg 2.20400
 Applying package: wjtp
 countEdges: 9709
-Successfully applied package: wjtp 0.02700
-Time to perform OA Inter 3.42200
+Successfully applied package: wjtp 0.02800
+Time to perform OA Inter 3.30200
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -59,14 +59,14 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 CG configuration init
 Enable CHA CG
 CG configuration completed.
-Depth limit: 20
-Configure Soot OA Inter 1.31500
+Depth limit: 10
+Configure Soot OA Inter 1.17400
 Applying package: cg
-Successfully applied package: cg 1.34700
+Successfully applied package: cg 1.34600
 Applying package: wjtp
 countEdges: 2943
-Successfully applied package: wjtp 0.02200
-Time to perform OA Inter 2.69000
+Successfully applied package: wjtp 0.02300
+Time to perform OA Inter 2.54800
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
