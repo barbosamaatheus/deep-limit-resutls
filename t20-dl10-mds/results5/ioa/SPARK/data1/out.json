@@ -1,0 +1,593 @@
+[
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "ArrayList.<java.util.ArrayList: java.lang.Object[] elementData> - ArrayList.<java.util.ArrayList: java.lang.Object[] elementData>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "ArrayList.<java.util.ArrayList: java.lang.Object[] elementData> = null",
+				"location": {
+					"file": "",
+					"class": "java.util.ArrayList",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 123
+},{
+	"class": "voldemort.client.protocol.admin.AdminClient",
+	"method": "<init>",
+	"line": 229
+},{
+	"class": "voldemort.client.protocol.admin.AdminClient$HelperOperations",
+	"method": "access$200",
+	"line": 338
+},{
+	"class": "voldemort.client.protocol.admin.AdminClient$HelperOperations",
+	"method": "initSystemStoreClient",
+	"line": 365
+},{
+	"class": "voldemort.client.SystemStoreClientFactory",
+	"method": "createSystemStore",
+	"line": 67
+},{
+	"class": "voldemort.client.SocketStoreClientFactory",
+	"method": "getSystemStore",
+	"line": 184
+},{
+	"class": "voldemort.client.AbstractStoreClientFactory",
+	"method": "getRawStore",
+	"line": 294
+},{
+	"class": "voldemort.xml.ClusterMapper",
+	"method": "readCluster",
+	"line": 117
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "ArrayList.<java.util.ArrayList: java.lang.Object[] elementData> = null",
+				"location": {
+					"file": "",
+					"class": "java.util.ArrayList",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 128
+},{
+	"class": "voldemort.routing.RoutingStrategyFactory",
+	"method": "updateRoutingStrategy",
+	"line": 22
+},{
+	"class": "voldemort.routing.RouteToAllStrategy",
+	"method": "<init>",
+	"line": 44
+}]
+			}
+		]
+	}
+},
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<java.lang.Integer: java.lang.Class TYPE> - <java.lang.Integer: java.lang.Class TYPE>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 123
+},{
+	"class": "voldemort.client.protocol.admin.AdminClientConfig",
+	"method": "<init>",
+	"line": 37
+},{
+	"class": "voldemort.client.protocol.admin.AdminClientConfig",
+	"method": "<init>",
+	"line": 44
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getInt",
+	"line": 230
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 128
+},{
+	"class": "voldemort.routing.RoutingStrategyFactory",
+	"method": "updateRoutingStrategy",
+	"line": 22
+},{
+	"class": "voldemort.routing.RouteToAllStrategy",
+	"method": "<init>",
+	"line": 45
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "l1 - l1",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "l1 = $stack2",
+				"location": {
+					"file": "",
+					"class": "java.lang.Class",
+					"method": "getName",
+					"line": 642
+				},
+				"stackTrace": [{
+	"class": "voldemort.server.VoldemortConfig",
+	"method": "<init>",
+	"line": 359
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getLong",
+	"line": 204
+},{
+	"class": "java.lang.Long",
+	"method": "parseLong",
+	"line": 631
+},{
+	"class": "java.lang.Long",
+	"method": "parseLong",
+	"line": 578
+},{
+	"class": "java.lang.Throwable",
+	"method": "<clinit>",
+	"line": 115
+},{
+	"class": "java.lang.Class",
+	"method": "desiredAssertionStatus",
+	"line": 3217
+},{
+	"class": "java.lang.Class",
+	"method": "getName",
+	"line": 642
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "l1 = l0.<java.lang.Class: java.lang.String name>",
+				"location": {
+					"file": "",
+					"class": "java.lang.Class",
+					"method": "getName",
+					"line": 640
+				},
+				"stackTrace": [{
+	"class": "voldemort.server.VoldemortConfig",
+	"method": "<init>",
+	"line": 448
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getBoolean",
+	"line": 190
+},{
+	"class": "java.lang.String",
+	"method": "equalsIgnoreCase",
+	"line": 1109
+},{
+	"class": "java.lang.String",
+	"method": "regionMatches",
+	"line": 1367
+},{
+	"class": "java.lang.Character",
+	"method": "<clinit>",
+	"line": 142
+},{
+	"class": "java.lang.Class",
+	"method": "desiredAssertionStatus",
+	"line": 3217
+},{
+	"class": "java.lang.Class",
+	"method": "getName",
+	"line": 640
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "Subscriber.<rx.Subscriber: rx.Producer producer> - Subscriber.<rx.Subscriber: rx.Producer producer>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "Subscriber.<rx.Subscriber: rx.Producer producer> = null",
+				"location": {
+					"file": "",
+					"class": "rx.Subscriber",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "rx.internal.operators.OperatorMulticast",
+	"method": "connect",
+	"line": 94
+},{
+	"class": "rx.observers.Subscribers",
+	"method": "from",
+	"line": 52
+},{
+	"class": "rx.observers.Subscribers$1",
+	"method": "<init>",
+	"line": 52
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "Subscriber.<rx.Subscriber: rx.Producer producer> = null",
+				"location": {
+					"file": "",
+					"class": "rx.Subscriber",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "rx.internal.operators.OperatorMulticast",
+	"method": "connect",
+	"line": 118
+},{
+	"class": "rx.internal.operators.OperatorMulticast$3",
+	"method": "<init>",
+	"line": 118
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> - this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> = $stack16",
+				"location": {
+					"file": "",
+					"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+					"method": "open",
+					"line": 111
+				},
+				"stackTrace": [{
+	"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+	"method": "open",
+	"line": 111
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> = $stack18",
+				"location": {
+					"file": "",
+					"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+					"method": "open",
+					"line": 122
+				},
+				"stackTrace": [{
+	"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+	"method": "open",
+	"line": 122
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "primaryRouting - primaryRouting",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "primaryRouting = $stack73",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+					"method": "execute",
+					"line": 98
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+	"method": "execute",
+	"line": 98
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "primaryRouting = $stack73",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+					"method": "execute",
+					"line": 98
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+	"method": "execute",
+	"line": 98
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "ReplicationResponse.<org.elasticsearch.action.support.replication.ReplicationResponse: org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo shardInfo> - ReplicationResponse.<org.elasticsearch.action.support.replication.ReplicationResponse: org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo shardInfo>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "ReplicationResponse.<org.elasticsearch.action.support.replication.ReplicationResponse: org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo shardInfo> = null",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.action.support.replication.ReplicationResponse",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.update.TransportUpdateAction$4",
+	"method": "onResponse",
+	"line": 250
+},{
+	"class": "org.elasticsearch.action.update.TransportUpdateAction$4",
+	"method": "onResponse",
+	"line": 254
+},{
+	"class": "org.elasticsearch.action.update.UpdateResponse",
+	"method": "<init>",
+	"line": 52
+},{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "<init>",
+	"line": 48
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "ReplicationResponse.<org.elasticsearch.action.support.replication.ReplicationResponse: org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo shardInfo> = null",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.action.support.replication.ReplicationResponse",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.update.TransportUpdateAction$4",
+	"method": "onResponse",
+	"line": 250
+},{
+	"class": "org.elasticsearch.action.update.TransportUpdateAction$4",
+	"method": "onResponse",
+	"line": 254
+},{
+	"class": "org.elasticsearch.action.update.UpdateResponse",
+	"method": "<init>",
+	"line": 52
+},{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "<init>",
+	"line": 48
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "l1[l2] - l1[l2]",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "l1[l2] = $stack6",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "toChars",
+					"line": 5174
+				},
+				"stackTrace": [{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "<init>",
+	"line": 24
+},{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "addTableType",
+	"line": 46
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2670
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2626
+},{
+	"class": "java.lang.Character",
+	"method": "toChars",
+	"line": 5174
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "l1[l2] = $stack6",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "toChars",
+					"line": 5174
+				},
+				"stackTrace": [{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "<init>",
+	"line": 31
+},{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "addTableType",
+	"line": 46
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2670
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2626
+},{
+	"class": "java.lang.Character",
+	"method": "toChars",
+	"line": 5174
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> - this.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> = null",
+				"location": {
+					"file": "",
+					"class": "org.springframework.boot.SpringApplication",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createRootApplicationContext",
+	"line": 87
+},{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createSpringApplicationBuilder",
+	"line": 121
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "<init>",
+	"line": 84
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "createSpringApplication",
+	"line": 96
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> = mainApplicationClass",
+				"location": {
+					"file": "",
+					"class": "org.springframework.boot.SpringApplication",
+					"method": "setMainApplicationClass",
+					"line": 691
+				},
+				"stackTrace": [{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createRootApplicationContext",
+	"line": 88
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "main",
+	"line": 348
+},{
+	"class": "org.springframework.boot.SpringApplication",
+	"method": "setMainApplicationClass",
+	"line": 691
+}]
+			}
+		]
+	}
+}
+
+]
