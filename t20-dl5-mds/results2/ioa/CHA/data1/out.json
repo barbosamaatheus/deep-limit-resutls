@@ -1,0 +1,1029 @@
+[
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "String.<java.lang.String: int hash> - String.<java.lang.String: int hash>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceResponse",
+	"line": 415
+},{
+	"class": "retrofit.android.AndroidLog",
+	"method": "log",
+	"line": 19
+},{
+	"class": "java.lang.String",
+	"method": "substring",
+	"line": 1969
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceResponse",
+	"line": 438
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "String.<java.lang.String: int hash> - String.<java.lang.String: int hash>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceRequest",
+	"line": 369
+},{
+	"class": "retrofit.android.AndroidLog",
+	"method": "log",
+	"line": 19
+},{
+	"class": "java.lang.String",
+	"method": "substring",
+	"line": 1969
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceRequest",
+	"line": 398
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<org.activiti.engine.impl.context.Context: java.lang.ThreadLocal processEngineConfigurationStackThreadLocal> - <org.activiti.engine.impl.context.Context: java.lang.ThreadLocal processEngineConfigurationStackThreadLocal>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<org.activiti.engine.impl.context.Context: java.lang.ThreadLocal processEngineConfigurationStackThreadLocal> = $stack1",
+				"location": {
+					"file": "",
+					"class": "org.activiti.engine.impl.context.Context",
+					"method": "<clinit>",
+					"line": 31
+				},
+				"stackTrace": [{
+	"class": "org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior",
+	"method": "execute",
+	"line": 111
+},{
+	"class": "org.activiti.engine.impl.el.JuelExpression",
+	"method": "getValue",
+	"line": 45
+},{
+	"class": "org.activiti.engine.impl.context.Context",
+	"method": "<clinit>",
+	"line": 31
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<org.activiti.engine.impl.context.Context: java.lang.ThreadLocal processEngineConfigurationStackThreadLocal> = $stack1",
+				"location": {
+					"file": "",
+					"class": "org.activiti.engine.impl.context.Context",
+					"method": "<clinit>",
+					"line": 31
+				},
+				"stackTrace": [{
+	"class": "org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior",
+	"method": "execute",
+	"line": 125
+},{
+	"class": "org.activiti.engine.impl.context.Context",
+	"method": "<clinit>",
+	"line": 31
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<com.squareup.okhttp.internal.Util: java.nio.charset.Charset US_ASCII> - <com.squareup.okhttp.internal.Util: java.nio.charset.Charset US_ASCII>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<com.squareup.okhttp.internal.Util: java.nio.charset.Charset US_ASCII> = $stack4",
+				"location": {
+					"file": "",
+					"class": "com.squareup.okhttp.internal.Util",
+					"method": "<clinit>",
+					"line": 54
+				},
+				"stackTrace": [{
+	"class": "com.squareup.okhttp.internal.bytes.GzipSource",
+	"method": "consumeHeader",
+	"line": 112
+},{
+	"class": "com.squareup.okhttp.internal.bytes.OkBuffer",
+	"method": "getByte",
+	"line": 81
+},{
+	"class": "com.squareup.okhttp.internal.Util",
+	"method": "<clinit>",
+	"line": 54
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<com.squareup.okhttp.internal.Util: java.nio.charset.Charset US_ASCII> = $stack4",
+				"location": {
+					"file": "",
+					"class": "com.squareup.okhttp.internal.Util",
+					"method": "<clinit>",
+					"line": 54
+				},
+				"stackTrace": [{
+	"class": "com.squareup.okhttp.internal.bytes.GzipSource",
+	"method": "consumeHeader",
+	"line": 138
+},{
+	"class": "com.squareup.okhttp.internal.bytes.OkBuffers",
+	"method": "seek",
+	"line": 40
+},{
+	"class": "com.squareup.okhttp.internal.bytes.OkBuffer",
+	"method": "read",
+	"line": 411
+},{
+	"class": "com.squareup.okhttp.internal.bytes.OkBuffer",
+	"method": "write",
+	"line": 371
+},{
+	"class": "com.squareup.okhttp.internal.Util",
+	"method": "<clinit>",
+	"line": 54
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<java.lang.Integer: java.lang.Class TYPE> - <java.lang.Integer: java.lang.Class TYPE>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "tachyon.hadoop.HdfsFileInputStream",
+	"method": "<init>",
+	"line": 44
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "tachyon.hadoop.HdfsFileInputStream",
+	"method": "<init>",
+	"line": 52
+},{
+	"class": "tachyon.client.TachyonFS",
+	"method": "getFile",
+	"line": 455
+},{
+	"class": "tachyon.client.TachyonFS",
+	"method": "getFile",
+	"line": 465
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "ArrayList.<java.util.ArrayList: java.lang.Object[] elementData> - ArrayList.<java.util.ArrayList: java.lang.Object[] elementData>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "ArrayList.<java.util.ArrayList: java.lang.Object[] elementData> = null",
+				"location": {
+					"file": "",
+					"class": "java.util.ArrayList",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 123
+},{
+	"class": "voldemort.client.protocol.admin.AdminClient",
+	"method": "<init>",
+	"line": 226
+},{
+	"class": "voldemort.client.protocol.admin.AdminClient",
+	"method": "<init>",
+	"line": 195
+},{
+	"class": "voldemort.store.ErrorCodeMapper",
+	"method": "<init>",
+	"line": 69
+},{
+	"class": "voldemort.store.memory.InMemoryStorageEngine$InMemoryIterator",
+	"method": "next",
+	"line": 267
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "ArrayList.<java.util.ArrayList: java.lang.Object[] elementData> = null",
+				"location": {
+					"file": "",
+					"class": "java.util.ArrayList",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 128
+},{
+	"class": "voldemort.routing.RoutingStrategyFactory",
+	"method": "updateRoutingStrategy",
+	"line": 22
+},{
+	"class": "voldemort.routing.RouteToAllStrategy",
+	"method": "<init>",
+	"line": 44
+}]
+			}
+		]
+	}
+},
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<java.lang.Integer: java.lang.Class TYPE> - <java.lang.Integer: java.lang.Class TYPE>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 123
+},{
+	"class": "voldemort.client.protocol.admin.AdminClientConfig",
+	"method": "<init>",
+	"line": 37
+},{
+	"class": "voldemort.client.protocol.admin.AdminClientConfig",
+	"method": "<init>",
+	"line": 44
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getInt",
+	"line": 230
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "voldemort.VoldemortClientShell",
+	"method": "<init>",
+	"line": 128
+},{
+	"class": "voldemort.routing.RoutingStrategyFactory",
+	"method": "updateRoutingStrategy",
+	"line": 22
+},{
+	"class": "voldemort.routing.RouteToAllStrategy",
+	"method": "<init>",
+	"line": 45
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<java.lang.Character: java.lang.Class TYPE> - <java.lang.Character: java.lang.Class TYPE>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<java.lang.Character: java.lang.Class TYPE> = $stack2",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "<clinit>",
+					"line": 195
+				},
+				"stackTrace": [{
+	"class": "voldemort.server.VoldemortConfig",
+	"method": "<init>",
+	"line": 359
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getLong",
+	"line": 204
+},{
+	"class": "java.lang.Long",
+	"method": "parseLong",
+	"line": 631
+},{
+	"class": "java.lang.Long",
+	"method": "parseLong",
+	"line": 587
+},{
+	"class": "java.lang.Character",
+	"method": "<clinit>",
+	"line": 195
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<java.lang.Character: java.lang.Class TYPE> = $stack2",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "<clinit>",
+					"line": 195
+				},
+				"stackTrace": [{
+	"class": "voldemort.server.VoldemortConfig",
+	"method": "<init>",
+	"line": 448
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getBoolean",
+	"line": 190
+},{
+	"class": "java.lang.String",
+	"method": "equalsIgnoreCase",
+	"line": 1109
+},{
+	"class": "java.lang.String",
+	"method": "regionMatches",
+	"line": 1367
+},{
+	"class": "java.lang.Character",
+	"method": "<clinit>",
+	"line": 195
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> - this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> = $stack16",
+				"location": {
+					"file": "",
+					"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+					"method": "open",
+					"line": 111
+				},
+				"stackTrace": [{
+	"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+	"method": "open",
+	"line": 111
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> = $stack18",
+				"location": {
+					"file": "",
+					"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+					"method": "open",
+					"line": 122
+				},
+				"stackTrace": [{
+	"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+	"method": "open",
+	"line": 122
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "this.<org.elasticsearch.search.lookup.CachedPositionIterator$1: int pos> - this.<org.elasticsearch.search.lookup.CachedPositionIterator$1: int pos>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "this.<org.elasticsearch.search.lookup.CachedPositionIterator$1: int pos> = $stack37",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.search.lookup.CachedPositionIterator$1",
+					"method": "next",
+					"line": 74
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.index.IndexSettings",
+	"method": "<init>",
+	"line": 238
+},{
+	"class": "org.elasticsearch.common.settings.AbstractScopedSettings",
+	"method": "get",
+	"line": 385
+},{
+	"class": "org.elasticsearch.common.settings.AbstractScopedSettings",
+	"method": "get",
+	"line": 333
+},{
+	"class": "org.elasticsearch.common.collect.HppcMaps$2",
+	"method": "hasNext",
+	"line": 107
+},{
+	"class": "org.elasticsearch.search.lookup.CachedPositionIterator$1",
+	"method": "next",
+	"line": 74
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<org.elasticsearch.search.lookup.CachedPositionIterator$1: int pos> = $stack37",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.search.lookup.CachedPositionIterator$1",
+					"method": "next",
+					"line": 74
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.index.IndexSettings",
+	"method": "<init>",
+	"line": 246
+},{
+	"class": "org.elasticsearch.common.settings.AbstractScopedSettings",
+	"method": "get",
+	"line": 385
+},{
+	"class": "org.elasticsearch.common.settings.AbstractScopedSettings",
+	"method": "get",
+	"line": 333
+},{
+	"class": "org.elasticsearch.common.collect.HppcMaps$2",
+	"method": "hasNext",
+	"line": 107
+},{
+	"class": "org.elasticsearch.search.lookup.CachedPositionIterator$1",
+	"method": "next",
+	"line": 74
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "scriptValues - scriptValues",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "scriptValues = (org.elasticsearch.index.fielddata.ScriptDocValues) $stack6",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.search.lookup.LeafDocLookup",
+					"method": "get",
+					"line": 76
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncReplicaAction",
+	"method": "doRun",
+	"line": 458
+},{
+	"class": "org.elasticsearch.action.support.replication.TransportReplicationAction",
+	"method": "getReplicaShardReference",
+	"line": 767
+},{
+	"class": "org.elasticsearch.indices.IndicesService",
+	"method": "indexServiceSafe",
+	"line": 338
+},{
+	"class": "org.elasticsearch.search.lookup.LeafDocLookup",
+	"method": "get",
+	"line": 76
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "scriptValues = (org.elasticsearch.index.fielddata.ScriptDocValues) $stack10",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.search.lookup.LeafDocLookup",
+					"method": "get",
+					"line": 84
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncReplicaAction",
+	"method": "doRun",
+	"line": 459
+},{
+	"class": "org.elasticsearch.action.admin.indices.flush.TransportShardFlushAction",
+	"method": "shardOperationOnReplica",
+	"line": 39
+},{
+	"class": "org.elasticsearch.action.admin.indices.flush.TransportShardFlushAction",
+	"method": "shardOperationOnReplica",
+	"line": 66
+},{
+	"class": "org.elasticsearch.indices.IndicesService",
+	"method": "indexServiceSafe",
+	"line": 338
+},{
+	"class": "org.elasticsearch.search.lookup.LeafDocLookup",
+	"method": "get",
+	"line": 84
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "primaryRouting - primaryRouting",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "primaryRouting = $stack73",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+					"method": "execute",
+					"line": 98
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+	"method": "execute",
+	"line": 98
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "primaryRouting = $stack73",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+					"method": "execute",
+					"line": 98
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.support.replication.ReplicationOperation",
+	"method": "execute",
+	"line": 98
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "this.<org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput: long writtenBytes> - this.<org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput: long writtenBytes>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "this.<org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput: long writtenBytes> = $stack6",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+					"method": "writeByte",
+					"line": 1170
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "writeTo",
+	"line": 140
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamOutput",
+	"method": "writeZLong",
+	"line": 232
+},{
+	"class": "org.elasticsearch.common.io.stream.OutputStreamStreamOutput",
+	"method": "writeByte",
+	"line": 37
+},{
+	"class": "org.elasticsearch.common.lucene.store.IndexOutputOutputStream",
+	"method": "write",
+	"line": 40
+},{
+	"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+	"method": "writeByte",
+	"line": 1170
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput: long writtenBytes> = $stack6",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+					"method": "writeByte",
+					"line": 1170
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "writeTo",
+	"line": 141
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamOutput",
+	"method": "writeBoolean",
+	"line": 332
+},{
+	"class": "org.elasticsearch.common.io.stream.OutputStreamStreamOutput",
+	"method": "writeByte",
+	"line": 37
+},{
+	"class": "org.elasticsearch.common.lucene.store.IndexOutputOutputStream",
+	"method": "write",
+	"line": 40
+},{
+	"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+	"method": "writeByte",
+	"line": 1170
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "this.<org.elasticsearch.common.compress.CompressedStreamInput: int position> - this.<org.elasticsearch.common.compress.CompressedStreamInput: int position>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "this.<org.elasticsearch.common.compress.CompressedStreamInput: int position> = 0",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.common.compress.CompressedStreamInput",
+					"method": "readyBuffer",
+					"line": 163
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "readFrom",
+	"line": 129
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamInput",
+	"method": "readZLong",
+	"line": 266
+},{
+	"class": "org.elasticsearch.common.io.stream.InputStreamStreamInput",
+	"method": "readByte",
+	"line": 41
+},{
+	"class": "org.elasticsearch.common.compress.CompressedStreamInput",
+	"method": "read",
+	"line": 72
+},{
+	"class": "org.elasticsearch.common.compress.CompressedStreamInput",
+	"method": "readyBuffer",
+	"line": 163
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<org.elasticsearch.common.compress.CompressedStreamInput: int position> = 0",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.common.compress.CompressedStreamInput",
+					"method": "readyBuffer",
+					"line": 163
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "readFrom",
+	"line": 130
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamInput",
+	"method": "readBoolean",
+	"line": 367
+},{
+	"class": "org.elasticsearch.common.io.stream.InputStreamStreamInput",
+	"method": "readByte",
+	"line": 41
+},{
+	"class": "org.elasticsearch.common.compress.CompressedStreamInput",
+	"method": "read",
+	"line": 72
+},{
+	"class": "org.elasticsearch.common.compress.CompressedStreamInput",
+	"method": "readyBuffer",
+	"line": 163
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "l1[l2] - l1[l2]",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "l1[l2] = $stack6",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "toChars",
+					"line": 5174
+				},
+				"stackTrace": [{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "<init>",
+	"line": 24
+},{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "addTableType",
+	"line": 46
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2670
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2626
+},{
+	"class": "java.lang.Character",
+	"method": "toChars",
+	"line": 5174
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "l1[l2] = $stack6",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "toChars",
+					"line": 5174
+				},
+				"stackTrace": [{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "<init>",
+	"line": 31
+},{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "addTableType",
+	"line": 46
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2670
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2626
+},{
+	"class": "java.lang.Character",
+	"method": "toChars",
+	"line": 5174
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> - this.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> = null",
+				"location": {
+					"file": "",
+					"class": "org.springframework.boot.SpringApplication",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createRootApplicationContext",
+	"line": 87
+},{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createSpringApplicationBuilder",
+	"line": 121
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "<init>",
+	"line": 84
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "createSpringApplication",
+	"line": 96
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> = mainApplicationClass",
+				"location": {
+					"file": "",
+					"class": "org.springframework.boot.SpringApplication",
+					"method": "setMainApplicationClass",
+					"line": 691
+				},
+				"stackTrace": [{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createRootApplicationContext",
+	"line": 88
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "main",
+	"line": 348
+},{
+	"class": "org.springframework.boot.SpringApplication",
+	"method": "setMainApplicationClass",
+	"line": 691
+}]
+			}
+		]
+	}
+}
+
+]
