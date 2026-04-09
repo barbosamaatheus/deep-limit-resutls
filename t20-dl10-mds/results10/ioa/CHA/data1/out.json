@@ -1,0 +1,612 @@
+[
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "String.<java.lang.String: int hash> - String.<java.lang.String: int hash>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceResponse",
+	"line": 415
+},{
+	"class": "retrofit.android.AndroidLog",
+	"method": "log",
+	"line": 19
+},{
+	"class": "java.lang.String",
+	"method": "substring",
+	"line": 1969
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceResponse",
+	"line": 438
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "String.<java.lang.String: int hash> - String.<java.lang.String: int hash>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceRequest",
+	"line": 369
+},{
+	"class": "retrofit.android.AndroidLog",
+	"method": "log",
+	"line": 19
+},{
+	"class": "java.lang.String",
+	"method": "substring",
+	"line": 1969
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "String.<java.lang.String: int hash> = null",
+				"location": {
+					"file": "",
+					"class": "java.lang.String",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "retrofit.RestAdapter",
+	"method": "logAndReplaceRequest",
+	"line": 398
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<java.lang.Integer: java.lang.Class TYPE> - <java.lang.Integer: java.lang.Class TYPE>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "tachyon.hadoop.HdfsFileInputStream",
+	"method": "<init>",
+	"line": 44
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<java.lang.Integer: java.lang.Class TYPE> = $stack0",
+				"location": {
+					"file": "",
+					"class": "java.lang.Integer",
+					"method": "<clinit>",
+					"line": 72
+				},
+				"stackTrace": [{
+	"class": "tachyon.hadoop.HdfsFileInputStream",
+	"method": "<init>",
+	"line": 52
+},{
+	"class": "tachyon.client.TachyonFS",
+	"method": "getFile",
+	"line": 455
+},{
+	"class": "tachyon.client.TachyonFS",
+	"method": "getFile",
+	"line": 465
+},{
+	"class": "java.lang.Integer",
+	"method": "<clinit>",
+	"line": 72
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "l1 - l1",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "l1 = $stack2",
+				"location": {
+					"file": "",
+					"class": "java.lang.Class",
+					"method": "getName",
+					"line": 642
+				},
+				"stackTrace": [{
+	"class": "voldemort.server.VoldemortConfig",
+	"method": "<init>",
+	"line": 359
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getLong",
+	"line": 204
+},{
+	"class": "java.lang.Long",
+	"method": "parseLong",
+	"line": 631
+},{
+	"class": "java.lang.Long",
+	"method": "parseLong",
+	"line": 578
+},{
+	"class": "java.lang.Throwable",
+	"method": "<clinit>",
+	"line": 115
+},{
+	"class": "java.lang.Class",
+	"method": "desiredAssertionStatus",
+	"line": 3217
+},{
+	"class": "java.lang.Class",
+	"method": "getName",
+	"line": 642
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "l1 = l0.<java.lang.Class: java.lang.String name>",
+				"location": {
+					"file": "",
+					"class": "java.lang.Class",
+					"method": "getName",
+					"line": 640
+				},
+				"stackTrace": [{
+	"class": "voldemort.server.VoldemortConfig",
+	"method": "<init>",
+	"line": 448
+},{
+	"class": "voldemort.utils.Props",
+	"method": "getBoolean",
+	"line": 190
+},{
+	"class": "java.lang.String",
+	"method": "equalsIgnoreCase",
+	"line": 1109
+},{
+	"class": "java.lang.String",
+	"method": "regionMatches",
+	"line": 1367
+},{
+	"class": "java.lang.Character",
+	"method": "<clinit>",
+	"line": 142
+},{
+	"class": "java.lang.Class",
+	"method": "desiredAssertionStatus",
+	"line": 3217
+},{
+	"class": "java.lang.Class",
+	"method": "getName",
+	"line": 640
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> - this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> = $stack16",
+				"location": {
+					"file": "",
+					"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+					"method": "open",
+					"line": 111
+				},
+				"stackTrace": [{
+	"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+	"method": "open",
+	"line": 111
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport> = $stack18",
+				"location": {
+					"file": "",
+					"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+					"method": "open",
+					"line": 122
+				},
+				"stackTrace": [{
+	"class": "me.prettyprint.cassandra.connection.client.HSaslThriftClient",
+	"method": "open",
+	"line": 122
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "ByteArrayIndexInput.<org.elasticsearch.common.lucene.store.ByteArrayIndexInput: int pos> - ByteArrayIndexInput.<org.elasticsearch.common.lucene.store.ByteArrayIndexInput: int pos>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "ByteArrayIndexInput.<org.elasticsearch.common.lucene.store.ByteArrayIndexInput: int pos> = null",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.common.lucene.store.ByteArrayIndexInput",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "writeTo",
+	"line": 140
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamOutput",
+	"method": "writeZLong",
+	"line": 232
+},{
+	"class": "org.elasticsearch.common.io.stream.OutputStreamStreamOutput",
+	"method": "writeByte",
+	"line": 37
+},{
+	"class": "org.elasticsearch.common.lucene.store.IndexOutputOutputStream",
+	"method": "write",
+	"line": 40
+},{
+	"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+	"method": "writeByte",
+	"line": 1179
+},{
+	"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+	"method": "verify",
+	"line": 1157
+},{
+	"class": "org.elasticsearch.common.lucene.store.ByteArrayIndexInput",
+	"method": "<init>",
+	"line": 39
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "ByteArrayIndexInput.<org.elasticsearch.common.lucene.store.ByteArrayIndexInput: int pos> = null",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.common.lucene.store.ByteArrayIndexInput",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "writeTo",
+	"line": 141
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamOutput",
+	"method": "writeBoolean",
+	"line": 332
+},{
+	"class": "org.elasticsearch.common.io.stream.OutputStreamStreamOutput",
+	"method": "writeByte",
+	"line": 37
+},{
+	"class": "org.elasticsearch.common.lucene.store.IndexOutputOutputStream",
+	"method": "write",
+	"line": 40
+},{
+	"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+	"method": "writeByte",
+	"line": 1179
+},{
+	"class": "org.elasticsearch.index.store.Store$LuceneVerifyingIndexOutput",
+	"method": "verify",
+	"line": 1157
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "<org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository: boolean $assertionsDisabled> - <org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository: boolean $assertionsDisabled>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "<org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository: boolean $assertionsDisabled> = $stack2",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository",
+					"method": "<clinit>",
+					"line": 88
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "readFrom",
+	"line": 129
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamInput",
+	"method": "readZLong",
+	"line": 266
+},{
+	"class": "org.elasticsearch.common.io.stream.InputStreamStreamInput",
+	"method": "readByte",
+	"line": 41
+},{
+	"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream",
+	"method": "read",
+	"line": 711
+},{
+	"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream",
+	"method": "checkAborted",
+	"line": 723
+},{
+	"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository",
+	"method": "<clinit>",
+	"line": 88
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "<org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository: boolean $assertionsDisabled> = $stack2",
+				"location": {
+					"file": "",
+					"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository",
+					"method": "<clinit>",
+					"line": 88
+				},
+				"stackTrace": [{
+	"class": "org.elasticsearch.action.DocWriteResponse",
+	"method": "readFrom",
+	"line": 130
+},{
+	"class": "org.elasticsearch.common.io.stream.StreamInput",
+	"method": "readBoolean",
+	"line": 367
+},{
+	"class": "org.elasticsearch.common.io.stream.InputStreamStreamInput",
+	"method": "readByte",
+	"line": 41
+},{
+	"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream",
+	"method": "read",
+	"line": 711
+},{
+	"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream",
+	"method": "checkAborted",
+	"line": 723
+},{
+	"class": "org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository",
+	"method": "<clinit>",
+	"line": 88
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "l1[l2] - l1[l2]",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "l1[l2] = $stack6",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "toChars",
+					"line": 5174
+				},
+				"stackTrace": [{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "<init>",
+	"line": 24
+},{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "addTableType",
+	"line": 46
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2670
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2626
+},{
+	"class": "java.lang.Character",
+	"method": "toChars",
+	"line": 5174
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "l1[l2] = $stack6",
+				"location": {
+					"file": "",
+					"class": "java.lang.Character",
+					"method": "toChars",
+					"line": 5174
+				},
+				"stackTrace": [{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "<init>",
+	"line": 31
+},{
+	"class": "fitnesse.testsystems.slim.tables.SlimTableFactory",
+	"method": "addTableType",
+	"line": 46
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2670
+},{
+	"class": "java.lang.String",
+	"method": "toLowerCase",
+	"line": 2626
+},{
+	"class": "java.lang.Character",
+	"method": "toChars",
+	"line": 5174
+}]
+			}
+		]
+	}
+}
+
+,
+
+{
+	"type": "OAINTER",
+	"label": "OA conflict",
+	"body": {
+		"description": "SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> - this.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass>",
+		"interference": [
+			{
+				"type": "declaration",
+				"branch": "L",
+				"text": "SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> = null",
+				"location": {
+					"file": "",
+					"class": "org.springframework.boot.SpringApplication",
+					"method": "<init>",
+					"line": -1
+				},
+				"stackTrace": [{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createRootApplicationContext",
+	"line": 87
+},{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createSpringApplicationBuilder",
+	"line": 121
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "<init>",
+	"line": 84
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "createSpringApplication",
+	"line": 96
+}]
+			},
+			{
+				"type": "override",
+				"branch": "R",
+				"text": "this.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass> = mainApplicationClass",
+				"location": {
+					"file": "",
+					"class": "org.springframework.boot.SpringApplication",
+					"method": "setMainApplicationClass",
+					"line": 691
+				},
+				"stackTrace": [{
+	"class": "org.springframework.boot.context.web.SpringBootServletInitializer",
+	"method": "createRootApplicationContext",
+	"line": 88
+},{
+	"class": "org.springframework.boot.builder.SpringApplicationBuilder",
+	"method": "main",
+	"line": 348
+},{
+	"class": "org.springframework.boot.SpringApplication",
+	"method": "setMainApplicationClass",
+	"line": 691
+}]
+			}
+		]
+	}
+}
+
+]
