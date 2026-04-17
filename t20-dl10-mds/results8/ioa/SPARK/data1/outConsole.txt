@@ -12,13 +12,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.54900
+Configure Soot OA Inter 1.56800
 Applying package: cg
-Successfully applied package: cg 13.59300
+Successfully applied package: cg 15.43900
 Applying package: wjtp
 countEdges: 22440
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.04900
-Time to perform OA Inter 15.19600
+Time to perform OA Inter 17.06300
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -40,13 +44,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.36900
+Configure Soot OA Inter 1.32600
 Applying package: cg
-Successfully applied package: cg 13.41500
+Successfully applied package: cg 13.40700
 Applying package: wjtp
 countEdges: 22440
-Successfully applied package: wjtp 0.04400
-Time to perform OA Inter 14.83200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.04300
+Time to perform OA Inter 14.77900
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -68,13 +76,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.10500
+Configure Soot OA Inter 0.88100
 Applying package: cg
-Successfully applied package: cg 0.83900
+Successfully applied package: cg 0.65100
 Applying package: wjtp
 countEdges: 656
-Successfully applied package: wjtp 0.09200
-Time to perform OA Inter 2.04300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.07400
+Time to perform OA Inter 1.61100
 OA Inter Visited methods: 18
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -96,13 +108,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.04300
+Configure Soot OA Inter 1.19400
 Applying package: cg
-Successfully applied package: cg 0.82000
+Successfully applied package: cg 0.88300
 Applying package: wjtp
 countEdges: 631
-Successfully applied package: wjtp 0.21000
-Time to perform OA Inter 2.07800
+fallbacks due to missing points-to information. 101
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.21200
+Time to perform OA Inter 2.29600
 OA Inter Visited methods: 194
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -124,13 +140,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.32400
+Configure Soot OA Inter 1.32500
 Applying package: cg
-Successfully applied package: cg 2.78400
+Successfully applied package: cg 2.32200
 Applying package: wjtp
 countEdges: 4428
-Successfully applied package: wjtp 0.07100
-Time to perform OA Inter 4.18500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.06800
+Time to perform OA Inter 3.72000
 OA Inter Visited methods: 19
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -152,13 +172,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.06700
+Configure Soot OA Inter 1.01900
 Applying package: cg
-Successfully applied package: cg 1.59300
+Successfully applied package: cg 1.57400
 Applying package: wjtp
 countEdges: 1749
-Successfully applied package: wjtp 0.04200
-Time to perform OA Inter 2.70700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 61
+assignments:
+Successfully applied package: wjtp 0.04400
+Time to perform OA Inter 2.64400
 OA Inter Visited methods: 58
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -180,19 +204,26 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.04900
+Configure Soot OA Inter 1.02700
 Applying package: cg
-Successfully applied package: cg 2.25500
+Successfully applied package: cg 2.30700
 Applying package: wjtp
 countEdges: 4089
-Successfully applied package: wjtp 0.02600
-Time to perform OA Inter 3.33500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03000
+Time to perform OA Inter 3.37000
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+Error getting the previous content of the JSON file out.json
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario storm;org.apache.storm.kafka.spout.KafkaSpout;open(Map, TopologyContext, SpoutOutputCollector);ad2be678831b3b060229fd936e3908110162b7ac
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -208,13 +239,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.00400
+Configure Soot OA Inter 0.99000
 Applying package: cg
-Successfully applied package: cg 1.11900
+Successfully applied package: cg 1.09600
 Applying package: wjtp
 countEdges: 1077
-Successfully applied package: wjtp 0.05000
-Time to perform OA Inter 2.17800
+fallbacks due to missing points-to information. 88
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.05200
+Time to perform OA Inter 2.14400
 OA Inter Visited methods: 43
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -236,13 +271,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.98300
+Configure Soot OA Inter 1.01000
 Applying package: cg
-Successfully applied package: cg 1.10800
+Successfully applied package: cg 1.12600
 Applying package: wjtp
 countEdges: 1077
-Successfully applied package: wjtp 0.03200
-Time to perform OA Inter 2.12800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 6
+assignments:
+Successfully applied package: wjtp 0.03500
+Time to perform OA Inter 2.17700
 OA Inter Visited methods: 41
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -264,13 +303,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.99100
+Configure Soot OA Inter 0.98400
 Applying package: cg
-Successfully applied package: cg 1.13200
+Successfully applied package: cg 1.12000
 Applying package: wjtp
 countEdges: 1077
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.01000
-Time to perform OA Inter 2.13800
+Time to perform OA Inter 2.12000
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -292,13 +335,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.01000
+Configure Soot OA Inter 0.99400
 Applying package: cg
-Successfully applied package: cg 0.96500
+Successfully applied package: cg 0.96900
 Applying package: wjtp
 countEdges: 862
-Successfully applied package: wjtp 0.02600
-Time to perform OA Inter 2.00600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02700
+Time to perform OA Inter 1.99600
 OA Inter Visited methods: 10
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -320,13 +367,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.15800
+Configure Soot OA Inter 1.18600
 Applying package: cg
-Successfully applied package: cg 1.30700
+Successfully applied package: cg 1.30400
 Applying package: wjtp
 countEdges: 1145
-Successfully applied package: wjtp 0.02100
-Time to perform OA Inter 2.49200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02200
+Time to perform OA Inter 2.51700
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -348,13 +399,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.86200
+Configure Soot OA Inter 1.06300
 Applying package: cg
-Successfully applied package: cg 1.82800
+Successfully applied package: cg 2.22900
 Applying package: wjtp
 countEdges: 5433
-Successfully applied package: wjtp 1.20600
-Time to perform OA Inter 3.90200
+fallbacks due to missing points-to information. 20
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 1.46100
+Time to perform OA Inter 4.75800
 OA Inter Visited methods: 1474
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -376,13 +431,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.06200
+Configure Soot OA Inter 1.06600
 Applying package: cg
-Successfully applied package: cg 2.12200
+Successfully applied package: cg 2.17200
 Applying package: wjtp
 countEdges: 5202
-Successfully applied package: wjtp 0.10100
-Time to perform OA Inter 3.29200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.09800
+Time to perform OA Inter 3.34300
 OA Inter Visited methods: 23
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -404,13 +463,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.82900
+Configure Soot OA Inter 1.02700
 Applying package: cg
-Successfully applied package: cg 2.10700
+Successfully applied package: cg 2.19600
 Applying package: wjtp
 countEdges: 5110
-Successfully applied package: wjtp 0.80500
-Time to perform OA Inter 3.74700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.66300
+Time to perform OA Inter 3.89100
 OA Inter Visited methods: 787
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -432,13 +495,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.01700
+Configure Soot OA Inter 0.85000
 Applying package: cg
-Successfully applied package: cg 2.08200
+Successfully applied package: cg 1.69200
 Applying package: wjtp
 countEdges: 4991
-Successfully applied package: wjtp 0.75200
-Time to perform OA Inter 3.85600
+fallbacks due to missing points-to information. 10
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.64200
+Time to perform OA Inter 3.18900
 OA Inter Visited methods: 677
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -460,13 +527,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.00900
+Configure Soot OA Inter 0.82600
 Applying package: cg
-Successfully applied package: cg 1.29400
+Successfully applied package: cg 1.04700
 Applying package: wjtp
 countEdges: 1746
-Successfully applied package: wjtp 0.05200
-Time to perform OA Inter 2.36000
+fallbacks due to missing points-to information. 8
+assignments:
+comparisons made using points-to information: 1
+assignments:
+Successfully applied package: wjtp 0.04400
+Time to perform OA Inter 1.92200
 OA Inter Visited methods: 68
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -488,13 +559,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.00500
+Configure Soot OA Inter 1.00000
 Applying package: cg
-Successfully applied package: cg 1.32600
+Successfully applied package: cg 1.31500
 Applying package: wjtp
 countEdges: 1746
-Successfully applied package: wjtp 0.04800
-Time to perform OA Inter 2.38500
+fallbacks due to missing points-to information. 8
+assignments:
+comparisons made using points-to information: 1
+assignments:
+Successfully applied package: wjtp 0.05100
+Time to perform OA Inter 2.37100
 OA Inter Visited methods: 65
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -516,13 +591,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.01100
+Configure Soot OA Inter 0.82400
 Applying package: cg
-Successfully applied package: cg 1.24100
+Successfully applied package: cg 1.17500
 Applying package: wjtp
 countEdges: 1483
-Successfully applied package: wjtp 0.09000
-Time to perform OA Inter 2.34800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.09200
+Time to perform OA Inter 2.09700
 OA Inter Visited methods: 83
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -544,13 +623,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.49000
+Configure Soot OA Inter 1.18600
 Applying package: cg
-Successfully applied package: cg 1.80000
+Successfully applied package: cg 1.51500
 Applying package: wjtp
 countEdges: 3115
-Successfully applied package: wjtp 3.10100
-Time to perform OA Inter 6.39600
+fallbacks due to missing points-to information. 1181
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 2.55300
+Time to perform OA Inter 5.25900
 OA Inter Visited methods: 3196
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -572,13 +655,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.26700
+Configure Soot OA Inter 1.49500
 Applying package: cg
-Successfully applied package: cg 1.59200
+Successfully applied package: cg 1.79300
 Applying package: wjtp
 countEdges: 3109
-Successfully applied package: wjtp 4.24800
-Time to perform OA Inter 7.11200
+fallbacks due to missing points-to information. 3352
+assignments:
+comparisons made using points-to information: 13
+assignments:
+Successfully applied package: wjtp 4.75500
+Time to perform OA Inter 8.04900
 OA Inter Visited methods: 4686
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -600,13 +687,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.61400
+Configure Soot OA Inter 1.53900
 Applying package: cg
-Successfully applied package: cg 4.45600
+Successfully applied package: cg 4.45900
 Applying package: wjtp
 countEdges: 10176
-Successfully applied package: wjtp 0.13100
-Time to perform OA Inter 6.20600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.16900
+Time to perform OA Inter 6.17200
 OA Inter Visited methods: 88
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -632,13 +723,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.93300
+Configure Soot OA Inter 0.93200
 Applying package: cg
-Successfully applied package: cg 0.96100
+Successfully applied package: cg 0.97000
 Applying package: wjtp
 countEdges: 1153
-Successfully applied package: wjtp 0.00700
-Time to perform OA Inter 1.90500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01000
+Time to perform OA Inter 1.91600
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -660,19 +755,25 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.13400
+Configure Soot OA Inter 1.17100
 Applying package: cg
-Successfully applied package: cg 1.12000
+Successfully applied package: cg 0.95000
 Applying package: wjtp
 countEdges: 1153
-Successfully applied package: wjtp 0.04200
-Time to perform OA Inter 2.30200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 1
+assignments:
+Successfully applied package: wjtp 0.03700
+Time to perform OA Inter 2.16500
 OA Inter Visited methods: 26
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario pushy;com.relayrides.pushy.apns.PushManager;handleConnectionFailure(ApnsConnection<T>, Throwable);58901c846e4f0874977c5aabbc34bcb4de3670e0
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -688,13 +789,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.80800
+Configure Soot OA Inter 1.02600
 Applying package: cg
-Successfully applied package: cg 0.80300
+Successfully applied package: cg 0.97700
 Applying package: wjtp
 countEdges: 916
-Successfully applied package: wjtp 0.06200
-Time to perform OA Inter 1.67900
+fallbacks due to missing points-to information. 60
+assignments:
+comparisons made using points-to information: 88
+assignments:
+Successfully applied package: wjtp 0.09400
+Time to perform OA Inter 2.10300
 OA Inter Visited methods: 36
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -716,13 +821,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.82700
+Configure Soot OA Inter 0.86100
 Applying package: cg
-Successfully applied package: cg 0.81500
+Successfully applied package: cg 0.97700
 Applying package: wjtp
 countEdges: 916
-Successfully applied package: wjtp 0.08900
-Time to perform OA Inter 1.73600
+fallbacks due to missing points-to information. 31
+assignments:
+comparisons made using points-to information: 42
+assignments:
+Successfully applied package: wjtp 0.12200
+Time to perform OA Inter 1.96600
 OA Inter Visited methods: 71
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -744,13 +853,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.78500
+Configure Soot OA Inter 0.78000
 Applying package: cg
-Successfully applied package: cg 0.69700
+Successfully applied package: cg 0.70800
 Applying package: wjtp
 countEdges: 705
-Successfully applied package: wjtp 0.12600
-Time to perform OA Inter 1.61200
+fallbacks due to missing points-to information. 115
+assignments:
+comparisons made using points-to information: 73
+assignments:
+Successfully applied package: wjtp 0.13200
+Time to perform OA Inter 1.62600
 OA Inter Visited methods: 193
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -772,13 +885,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.80200
+Configure Soot OA Inter 0.99100
 Applying package: cg
-Successfully applied package: cg 0.85000
+Successfully applied package: cg 1.06600
 Applying package: wjtp
 countEdges: 1212
-Successfully applied package: wjtp 0.04000
-Time to perform OA Inter 1.69700
+fallbacks due to missing points-to information. 31
+assignments:
+comparisons made using points-to information: 1
+assignments:
+Successfully applied package: wjtp 0.05000
+Time to perform OA Inter 2.11200
 OA Inter Visited methods: 78
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -800,13 +917,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.95000
+Configure Soot OA Inter 0.98200
 Applying package: cg
-Successfully applied package: cg 0.63100
+Successfully applied package: cg 0.66400
 Applying package: wjtp
 countEdges: 381
-Successfully applied package: wjtp 0.29100
-Time to perform OA Inter 1.87700
+fallbacks due to missing points-to information. 12
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.29400
+Time to perform OA Inter 1.94500
 OA Inter Visited methods: 174
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -828,13 +949,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.79600
+Configure Soot OA Inter 1.01000
 Applying package: cg
-Successfully applied package: cg 0.50300
+Successfully applied package: cg 0.62400
 Applying package: wjtp
 countEdges: 218
-Successfully applied package: wjtp 0.02300
-Time to perform OA Inter 1.32600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03000
+Time to perform OA Inter 1.67000
 OA Inter Visited methods: 14
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -856,13 +981,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.72800
+Configure Soot OA Inter 1.86800
 Applying package: cg
-Successfully applied package: cg 1.25900
+Successfully applied package: cg 1.52600
 Applying package: wjtp
 countEdges: 1495
-Successfully applied package: wjtp 0.51000
-Time to perform OA Inter 3.50200
+fallbacks due to missing points-to information. 717
+assignments:
+comparisons made using points-to information: 9
+assignments:
+Successfully applied package: wjtp 0.60700
+Time to perform OA Inter 4.00700
 OA Inter Visited methods: 321
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -884,13 +1013,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.10100
+Configure Soot OA Inter 1.30000
 Applying package: cg
-Successfully applied package: cg 3.16700
+Successfully applied package: cg 2.59500
 Applying package: wjtp
 countEdges: 5469
-Successfully applied package: wjtp 0.12600
-Time to perform OA Inter 4.39900
+fallbacks due to missing points-to information. 414
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.10100
+Time to perform OA Inter 4.00100
 OA Inter Visited methods: 157
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -912,13 +1045,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.26400
+Configure Soot OA Inter 1.54100
 Applying package: cg
-Successfully applied package: cg 20.13700
+Successfully applied package: cg 19.54700
 Applying package: wjtp
 countEdges: 47377
-Successfully applied package: wjtp 1.10000
-Time to perform OA Inter 22.50600
+fallbacks due to missing points-to information. 26054
+assignments:
+comparisons made using points-to information: 3328
+assignments:
+Successfully applied package: wjtp 1.53900
+Time to perform OA Inter 22.63300
 OA Inter Visited methods: 2140
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -940,13 +1077,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.03600
+Configure Soot OA Inter 0.83500
 Applying package: cg
-Successfully applied package: cg 0.39500
+Successfully applied package: cg 0.32700
 Applying package: wjtp
 countEdges: 136
-Successfully applied package: wjtp 0.26900
-Time to perform OA Inter 1.70700
+fallbacks due to missing points-to information. 270
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.22900
+Time to perform OA Inter 1.39600
 OA Inter Visited methods: 93
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -968,13 +1109,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.03300
+Configure Soot OA Inter 0.91100
 Applying package: cg
-Successfully applied package: cg 0.39900
+Successfully applied package: cg 0.32200
 Applying package: wjtp
 countEdges: 136
-Successfully applied package: wjtp 0.59900
-Time to perform OA Inter 2.03600
+fallbacks due to missing points-to information. 2176
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.50600
+Time to perform OA Inter 1.74400
 OA Inter Visited methods: 286
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -996,13 +1141,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.05800
+Configure Soot OA Inter 1.29400
 Applying package: cg
-Successfully applied package: cg 3.87000
+Successfully applied package: cg 4.11200
 Applying package: wjtp
 countEdges: 9470
-Successfully applied package: wjtp 343.65600
-Time to perform OA Inter 348.59000
+fallbacks due to missing points-to information. 1895
+assignments:
+comparisons made using points-to information: 2113
+assignments:
+Successfully applied package: wjtp 346.15000
+Time to perform OA Inter 351.56200
 OA Inter Visited methods: 5206
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1010,7 +1159,6 @@ OAAnalysis CSV export successful!
 ----------------------------
  Number of conflicts: 1
  Results exported to out.txt
-Error getting the previous content of the JSON file out.json
  JSON Results exported to out.json
 ----------------------------
 Running soot scenario voldemort;voldemort.VoldemortClientShell;VoldemortClientShell(ClientConfig, String, BufferedReader, PrintStream, PrintStream);b30fdfebe30c9b6e37b9fbc3fec0ff74cd19f997
@@ -1027,21 +1175,20 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.21400
+Configure Soot OA Inter 1.61000
 Applying package: cg
-Successfully applied package: cg 8.39900
+Successfully applied package: cg 8.94500
 Applying package: wjtp
 countEdges: 26582
 OA interference in class VoldemortClientShell, method void <init>(voldemort.client.ClientConfig,java.lang.String,java.io.BufferedReader,java.io.PrintStream,java.io.PrintStream), execution of line 123 overrides 128, assigning to variable ArrayList.<java.util.ArrayList: java.lang.Object[] elementData>, 
 Caused by line 123 flow:
 at voldemort.VoldemortClientShell.<init>(VoldemortClientShell.java:123)
-at voldemort.client.protocol.admin.AdminClient.<init>(AdminClient.java:229)
-at voldemort.client.protocol.admin.AdminClient$HelperOperations.access$200(AdminClient$HelperOperations.java:338)
-at voldemort.client.protocol.admin.AdminClient$HelperOperations.initSystemStoreClient(AdminClient$HelperOperations.java:365)
-at voldemort.client.SystemStoreClientFactory.createSystemStore(SystemStoreClientFactory.java:67)
-at voldemort.client.SocketStoreClientFactory.getSystemStore(SocketStoreClientFactory.java:184)
-at voldemort.client.AbstractStoreClientFactory.getRawStore(AbstractStoreClientFactory.java:294)
-at voldemort.xml.ClusterMapper.readCluster(ClusterMapper.java:117)
+at voldemort.client.protocol.admin.AdminClient.<init>(AdminClient.java:228)
+at voldemort.client.protocol.admin.AdminClient$HelperOperations.access$100(AdminClient$HelperOperations.java:338)
+at voldemort.client.protocol.admin.AdminClient$HelperOperations.getClusterFromBootstrapURL(AdminClient$HelperOperations.java:388)
+at voldemort.xml.ClusterMapper.readCluster(ClusterMapper.java:115)
+at voldemort.xml.ClusterMapper.readZone(ClusterMapper.java:145)
+at voldemort.cluster.Zone.<init>(Zone.java:20)
 And line 128 flow:
 at voldemort.VoldemortClientShell.<init>(VoldemortClientShell.java:128)
 at voldemort.routing.RoutingStrategyFactory.updateRoutingStrategy(RoutingStrategyFactory.java:22)
@@ -1060,14 +1207,18 @@ at voldemort.routing.RoutingStrategyFactory.updateRoutingStrategy(RoutingStrateg
 at voldemort.routing.RouteToAllStrategy.<init>(RouteToAllStrategy.java:45)
 at java.lang.Integer.<clinit>(Integer.java:72)
  
-Successfully applied package: wjtp 434.61000
-Time to perform OA Inter 444.23600
+fallbacks due to missing points-to information. 51822
+assignments:
+comparisons made using points-to information: 14461
+assignments:
+Successfully applied package: wjtp 418.84600
+Time to perform OA Inter 429.41200
 OA Inter Visited methods: 4384
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 76
+ Number of conflicts: 77
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -1085,9 +1236,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.72300
+Configure Soot OA Inter 1.70400
 Applying package: cg
-Successfully applied package: cg 9.21800
+Successfully applied package: cg 9.71000
 Applying package: wjtp
 countEdges: 26435
 OA interference in class VoldemortConfig, method void <init>(voldemort.utils.Props), execution of line 359 overrides 448, assigning to variable l1, 
@@ -1108,8 +1259,12 @@ at java.lang.Character.<clinit>(Character.java:142)
 at java.lang.Class.desiredAssertionStatus(Class.java:3217)
 at java.lang.Class.getName(Class.java:640)
  
-Successfully applied package: wjtp 11.05300
-Time to perform OA Inter 22.00100
+fallbacks due to missing points-to information. 13257
+assignments:
+comparisons made using points-to information: 3647
+assignments:
+Successfully applied package: wjtp 12.12900
+Time to perform OA Inter 23.55100
 OA Inter Visited methods: 23660
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1133,13 +1288,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.01600
+Configure Soot OA Inter 0.80700
 Applying package: cg
-Successfully applied package: cg 1.49400
+Successfully applied package: cg 1.58300
 Applying package: wjtp
 countEdges: 1898
-Successfully applied package: wjtp 0.05300
-Time to perform OA Inter 2.56800
+fallbacks due to missing points-to information. 230
+assignments:
+comparisons made using points-to information: 303
+assignments:
+Successfully applied package: wjtp 0.07100
+Time to perform OA Inter 2.46600
 OA Inter Visited methods: 64
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1161,13 +1320,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.00400
+Configure Soot OA Inter 0.81100
 Applying package: cg
-Successfully applied package: cg 1.71500
+Successfully applied package: cg 1.65700
 Applying package: wjtp
 countEdges: 1898
-Successfully applied package: wjtp 0.02700
-Time to perform OA Inter 2.75300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 47
+assignments:
+Successfully applied package: wjtp 0.02900
+Time to perform OA Inter 2.50300
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1189,9 +1352,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.83700
+Configure Soot OA Inter 1.94800
 Applying package: cg
-Successfully applied package: cg 5.17000
+Successfully applied package: cg 3.95900
 Applying package: wjtp
 countEdges: 6002
 OA interference in class OperatorMulticast, method void connect(rx.functions.Action1), execution of line 94 overrides 118, assigning to variable Subscriber.<rx.Subscriber: rx.Producer producer>, 
@@ -1203,8 +1366,12 @@ And line 118 flow:
 at rx.internal.operators.OperatorMulticast.connect(OperatorMulticast.java:118)
 at rx.internal.operators.OperatorMulticast$3.<init>(OperatorMulticast$3.java:118)
  
-Successfully applied package: wjtp 2.35800
-Time to perform OA Inter 10.37300
+fallbacks due to missing points-to information. 4602
+assignments:
+comparisons made using points-to information: 3015
+assignments:
+Successfully applied package: wjtp 2.23100
+Time to perform OA Inter 8.14600
 OA Inter Visited methods: 1278
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1228,13 +1395,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.92200
+Configure Soot OA Inter 1.11500
 Applying package: cg
-Successfully applied package: cg 3.00700
+Successfully applied package: cg 3.14400
 Applying package: wjtp
 countEdges: 11097
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.02000
-Time to perform OA Inter 3.95400
+Time to perform OA Inter 4.28500
 OA Inter Visited methods: 10
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1256,13 +1427,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.83000
+Configure Soot OA Inter 1.01800
 Applying package: cg
-Successfully applied package: cg 1.32200
+Successfully applied package: cg 1.66500
 Applying package: wjtp
 countEdges: 1548
-Successfully applied package: wjtp 0.24200
-Time to perform OA Inter 2.39900
+fallbacks due to missing points-to information. 46
+assignments:
+comparisons made using points-to information: 166
+assignments:
+Successfully applied package: wjtp 0.31500
+Time to perform OA Inter 3.00400
 OA Inter Visited methods: 400
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1284,13 +1459,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.82200
+Configure Soot OA Inter 1.05600
 Applying package: cg
-Successfully applied package: cg 1.31600
+Successfully applied package: cg 1.65400
 Applying package: wjtp
 countEdges: 1548
-Successfully applied package: wjtp 0.04300
-Time to perform OA Inter 2.18700
+fallbacks due to missing points-to information. 8
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.05300
+Time to perform OA Inter 2.76900
 OA Inter Visited methods: 32
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1312,13 +1491,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.83800
+Configure Soot OA Inter 1.05000
 Applying package: cg
-Successfully applied package: cg 1.28800
+Successfully applied package: cg 1.60500
 Applying package: wjtp
 countEdges: 1518
-Successfully applied package: wjtp 0.26400
-Time to perform OA Inter 2.39600
+fallbacks due to missing points-to information. 228
+assignments:
+comparisons made using points-to information: 569
+assignments:
+Successfully applied package: wjtp 0.29000
+Time to perform OA Inter 2.95100
 OA Inter Visited methods: 396
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1340,13 +1523,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.03200
+Configure Soot OA Inter 0.94400
 Applying package: cg
-Successfully applied package: cg 1.29700
+Successfully applied package: cg 1.60300
 Applying package: wjtp
 countEdges: 1518
-Successfully applied package: wjtp 0.20200
-Time to perform OA Inter 2.53700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.25600
+Time to perform OA Inter 2.80900
 OA Inter Visited methods: 415
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1368,13 +1555,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.85100
+Configure Soot OA Inter 1.07100
 Applying package: cg
-Successfully applied package: cg 1.27200
+Successfully applied package: cg 1.59500
 Applying package: wjtp
 countEdges: 1518
-Successfully applied package: wjtp 0.50800
-Time to perform OA Inter 2.63600
+fallbacks due to missing points-to information. 1525
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.66400
+Time to perform OA Inter 3.33700
 OA Inter Visited methods: 1174
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1396,13 +1587,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.90000
+Configure Soot OA Inter 0.92700
 Applying package: cg
-Successfully applied package: cg 1.58900
+Successfully applied package: cg 1.60900
 Applying package: wjtp
 countEdges: 1518
-Successfully applied package: wjtp 0.83800
-Time to perform OA Inter 3.33300
+fallbacks due to missing points-to information. 559
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.91100
+Time to perform OA Inter 3.45200
 OA Inter Visited methods: 1599
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1424,13 +1619,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.03700
+Configure Soot OA Inter 1.03900
 Applying package: cg
-Successfully applied package: cg 1.58800
+Successfully applied package: cg 1.61700
 Applying package: wjtp
 countEdges: 1518
-Successfully applied package: wjtp 0.06600
-Time to perform OA Inter 2.69700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 12
+assignments:
+Successfully applied package: wjtp 0.05700
+Time to perform OA Inter 2.71800
 OA Inter Visited methods: 18
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1454,7 +1653,7 @@ CG configuration completed.
 Depth limit: 10
 Configure Soot OA Inter 1.17800
 Applying package: cg
-Successfully applied package: cg 1.30500
+Successfully applied package: cg 1.11400
 Applying package: wjtp
 countEdges: 1233
 OA interference in class HSaslThriftClient, method me.prettyprint.cassandra.connection.client.HSaslThriftClient open(), execution of line 111 overrides 122, assigning to variable this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport>, 
@@ -1463,8 +1662,12 @@ at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThrift
 And line 122 flow:
 at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThriftClient.java:122)
  
-Successfully applied package: wjtp 0.28300
-Time to perform OA Inter 2.77500
+fallbacks due to missing points-to information. 39
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.28600
+Time to perform OA Inter 2.58600
 OA Inter Visited methods: 137
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1488,13 +1691,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.20600
+Configure Soot OA Inter 1.21200
 Applying package: cg
-Successfully applied package: cg 1.09700
+Successfully applied package: cg 1.15300
 Applying package: wjtp
 countEdges: 1233
-Successfully applied package: wjtp 0.06900
-Time to perform OA Inter 2.37800
+fallbacks due to missing points-to information. 2
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.08700
+Time to perform OA Inter 2.45800
 OA Inter Visited methods: 23
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1516,13 +1723,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.96100
+Configure Soot OA Inter 1.16700
 Applying package: cg
-Successfully applied package: cg 1.14500
+Successfully applied package: cg 1.22600
 Applying package: wjtp
 countEdges: 1233
-Successfully applied package: wjtp 0.09400
-Time to perform OA Inter 2.24200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.08600
+Time to perform OA Inter 2.48400
 OA Inter Visited methods: 16
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1544,13 +1755,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.03500
+Configure Soot OA Inter 1.14500
 Applying package: cg
-Successfully applied package: cg 1.15600
+Successfully applied package: cg 1.00300
 Applying package: wjtp
 countEdges: 1147
-Successfully applied package: wjtp 0.18300
-Time to perform OA Inter 2.37900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.15000
+Time to perform OA Inter 2.30300
 OA Inter Visited methods: 258
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1572,13 +1787,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.96500
+Configure Soot OA Inter 1.20200
 Applying package: cg
-Successfully applied package: cg 0.33400
+Successfully applied package: cg 0.40200
 Applying package: wjtp
 countEdges: 133
-Successfully applied package: wjtp 0.05200
-Time to perform OA Inter 1.35500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.06000
+Time to perform OA Inter 1.66900
 OA Inter Visited methods: 49
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1600,13 +1819,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.16200
+Configure Soot OA Inter 1.09400
 Applying package: cg
-Successfully applied package: cg 0.40000
+Successfully applied package: cg 0.31500
 Applying package: wjtp
 countEdges: 133
-Successfully applied package: wjtp 0.39300
-Time to perform OA Inter 1.96000
+fallbacks due to missing points-to information. 28
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.37500
+Time to perform OA Inter 1.78900
 OA Inter Visited methods: 38
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1628,13 +1851,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.86300
+Configure Soot OA Inter 1.07400
 Applying package: cg
-Successfully applied package: cg 1.65100
+Successfully applied package: cg 1.98800
 Applying package: wjtp
 countEdges: 2182
-Successfully applied package: wjtp 0.02100
-Time to perform OA Inter 2.54000
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03600
+Time to perform OA Inter 3.10400
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1656,13 +1883,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.10500
+Configure Soot OA Inter 1.04500
 Applying package: cg
-Successfully applied package: cg 2.00800
+Successfully applied package: cg 1.89900
 Applying package: wjtp
 countEdges: 2182
-Successfully applied package: wjtp 0.04200
-Time to perform OA Inter 3.16100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03500
+Time to perform OA Inter 2.98500
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1684,13 +1915,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.08500
+Configure Soot OA Inter 1.03900
 Applying package: cg
-Successfully applied package: cg 1.98000
+Successfully applied package: cg 1.86800
 Applying package: wjtp
 countEdges: 2182
-Successfully applied package: wjtp 0.02800
-Time to perform OA Inter 3.09800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02300
+Time to perform OA Inter 2.93500
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1712,13 +1947,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.05000
+Configure Soot OA Inter 1.06100
 Applying package: cg
-Successfully applied package: cg 1.81800
+Successfully applied package: cg 1.84800
 Applying package: wjtp
 countEdges: 2096
-Successfully applied package: wjtp 0.03500
-Time to perform OA Inter 2.90800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03800
+Time to perform OA Inter 2.95200
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1740,13 +1979,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.04900
+Configure Soot OA Inter 1.02900
 Applying package: cg
-Successfully applied package: cg 1.82300
+Successfully applied package: cg 1.56600
 Applying package: wjtp
 countEdges: 2096
-Successfully applied package: wjtp 0.03100
-Time to perform OA Inter 2.90800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02600
+Time to perform OA Inter 2.62500
 OA Inter Visited methods: 3
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1768,13 +2011,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.06800
+Configure Soot OA Inter 1.03700
 Applying package: cg
-Successfully applied package: cg 1.84900
+Successfully applied package: cg 1.85600
 Applying package: wjtp
 countEdges: 2096
-Successfully applied package: wjtp 0.00900
-Time to perform OA Inter 2.93200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01000
+Time to perform OA Inter 2.90900
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1796,13 +2043,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.08000
+Configure Soot OA Inter 1.05000
 Applying package: cg
-Successfully applied package: cg 1.85500
+Successfully applied package: cg 1.80600
 Applying package: wjtp
 countEdges: 2096
-Successfully applied package: wjtp 0.01000
-Time to perform OA Inter 2.95300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01200
+Time to perform OA Inter 2.87300
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1828,13 +2079,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.10600
+Configure Soot OA Inter 0.90500
 Applying package: cg
-Successfully applied package: cg 3.17100
+Successfully applied package: cg 2.71100
 Applying package: wjtp
 countEdges: 3155
-Successfully applied package: wjtp 0.03400
-Time to perform OA Inter 4.31700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03300
+Time to perform OA Inter 3.65300
 OA Inter Visited methods: 29
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1856,13 +2111,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.69300
+Configure Soot OA Inter 2.69100
 Applying package: cg
-Successfully applied package: cg 11.68300
+Successfully applied package: cg 10.68000
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 0.04300
-Time to perform OA Inter 14.42500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03700
+Time to perform OA Inter 13.41400
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1884,13 +2143,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.47200
+Configure Soot OA Inter 2.70100
 Applying package: cg
-Successfully applied package: cg 10.28800
+Successfully applied package: cg 10.33000
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 2.44200
-Time to perform OA Inter 15.20700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 16
+assignments:
+Successfully applied package: wjtp 2.49200
+Time to perform OA Inter 15.52800
 OA Inter Visited methods: 1831
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1912,13 +2175,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.67400
+Configure Soot OA Inter 2.17200
 Applying package: cg
-Successfully applied package: cg 52.08100
+Successfully applied package: cg 53.75100
 Applying package: wjtp
 countEdges: 171906
-Successfully applied package: wjtp 0.18800
-Time to perform OA Inter 53.94800
+fallbacks due to missing points-to information. 78
+assignments:
+comparisons made using points-to information: 48
+assignments:
+Successfully applied package: wjtp 0.14800
+Time to perform OA Inter 56.07600
 OA Inter Visited methods: 219
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1940,9 +2207,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.57900
+Configure Soot OA Inter 2.71400
 Applying package: cg
-Successfully applied package: cg 10.74500
+Successfully applied package: cg 9.52400
 Applying package: wjtp
 countEdges: 17228
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.bulk.TransportShardBulkAction;update(IndexMetaData, BulkShardRequest, IndexShard, long[], VersionType[], Translog.Location, int, BulkItemRequest);d896886973660785aac45275ddb110c1a6babc57
@@ -1959,19 +2226,43 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.69300
+Configure Soot OA Inter 2.75200
 Applying package: cg
-Successfully applied package: cg 11.48500
+Successfully applied package: cg 11.22100
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 6.36500
-Time to perform OA Inter 20.54800
+OA interference in class TransportShardBulkAction, method org.elasticsearch.common.collect.Tuple update(org.elasticsearch.cluster.metadata.IndexMetaData,org.elasticsearch.action.bulk.BulkShardRequest,org.elasticsearch.index.shard.IndexShard,long[],org.elasticsearch.index.VersionType[],org.elasticsearch.index.translog.Translog$Location,int,org.elasticsearch.action.bulk.BulkItemRequest), execution of line 254 overrides 255, assigning to variable indexResponse, 
+Caused by line 254 flow:
+at org.elasticsearch.action.bulk.TransportShardBulkAction.update(TransportShardBulkAction.java:254)
+And line 255 flow:
+at org.elasticsearch.action.bulk.TransportShardBulkAction.update(TransportShardBulkAction.java:255)
+ 
+OA interference in class TransportShardBulkAction, method org.elasticsearch.common.collect.Tuple update(org.elasticsearch.cluster.metadata.IndexMetaData,org.elasticsearch.action.bulk.BulkShardRequest,org.elasticsearch.index.shard.IndexShard,long[],org.elasticsearch.index.VersionType[],org.elasticsearch.index.translog.Translog$Location,int,org.elasticsearch.action.bulk.BulkItemRequest), execution of line 266 overrides 268, assigning to variable response, 
+Caused by line 266 flow:
+at org.elasticsearch.action.bulk.TransportShardBulkAction.update(TransportShardBulkAction.java:266)
+And line 268 flow:
+at org.elasticsearch.action.bulk.TransportShardBulkAction.update(TransportShardBulkAction.java:268)
+ 
+OA interference in class TransportShardBulkAction, method org.elasticsearch.common.collect.Tuple update(org.elasticsearch.cluster.metadata.IndexMetaData,org.elasticsearch.action.bulk.BulkShardRequest,org.elasticsearch.index.shard.IndexShard,long[],org.elasticsearch.index.VersionType[],org.elasticsearch.index.translog.Translog$Location,int,org.elasticsearch.action.bulk.BulkItemRequest), execution of line 255 overrides 266, assigning to variable updateResponse, 
+Caused by line 255 flow:
+at org.elasticsearch.action.bulk.TransportShardBulkAction.update(TransportShardBulkAction.java:255)
+And line 266 flow:
+at org.elasticsearch.action.bulk.TransportShardBulkAction.update(TransportShardBulkAction.java:266)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 6180
+assignments:
+Successfully applied package: wjtp 6.37900
+Time to perform OA Inter 20.36000
 OA Inter Visited methods: 5744
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 5
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.action.support.replication.TransportReplicationAction;doRun();d896886973660785aac45275ddb110c1a6babc57
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1987,19 +2278,31 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.14000
+Configure Soot OA Inter 2.20400
 Applying package: cg
-Successfully applied package: cg 10.82000
+Successfully applied package: cg 10.27500
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 0.59700
-Time to perform OA Inter 13.56300
+OA interference in class TransportReplicationAction$AsyncReplicaAction, method void doRun(), execution of line 458 overrides 459, assigning to variable l4, 
+Caused by line 458 flow:
+at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncReplicaAction.doRun(TransportReplicationAction$AsyncReplicaAction.java:458)
+And line 459 flow:
+at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncReplicaAction.doRun(TransportReplicationAction$AsyncReplicaAction.java:459)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 215
+assignments:
+Successfully applied package: wjtp 0.58100
+Time to perform OA Inter 13.06700
 OA Inter Visited methods: 237
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 6
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.action.support.replication.ReplicationOperation;execute();d896886973660785aac45275ddb110c1a6babc57
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2015,25 +2318,41 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.17900
+Configure Soot OA Inter 2.21100
 Applying package: cg
-Successfully applied package: cg 10.56300
+Successfully applied package: cg 10.96500
 Applying package: wjtp
 countEdges: 17228
+OA interference in class ReplicationOperation, method void execute(), execution of line 101 overrides 109, assigning to variable $u0, 
+Caused by line 101 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:101)
+And line 109 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:109)
+ 
+OA interference in class ReplicationOperation, method void execute(), execution of line 99 overrides 109, assigning to variable primaryId, 
+Caused by line 99 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:99)
+And line 109 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:109)
+ 
 OA interference in class ReplicationOperation, method void execute(), execution of line 98 overrides 98, assigning to variable primaryRouting, 
 Caused by line 98 flow:
 at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:98)
 And line 98 flow:
 at org.elasticsearch.action.support.replication.ReplicationOperation.execute(ReplicationOperation.java:98)
  
-Successfully applied package: wjtp 0.89400
-Time to perform OA Inter 13.64400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 3
+assignments:
+Successfully applied package: wjtp 0.67800
+Time to perform OA Inter 13.86200
 OA Inter Visited methods: 683
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 2
+ Number of conflicts: 9
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -2051,13 +2370,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.12300
+Configure Soot OA Inter 1.70800
 Applying package: cg
-Successfully applied package: cg 53.96100
+Successfully applied package: cg 53.42500
 Applying package: wjtp
 countEdges: 171906
-Successfully applied package: wjtp 0.09600
-Time to perform OA Inter 56.18600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.08100
+Time to perform OA Inter 55.22000
 OA Inter Visited methods: 67
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2079,13 +2402,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.66100
+Configure Soot OA Inter 2.07900
 Applying package: cg
-Successfully applied package: cg 10.53500
+Successfully applied package: cg 11.42500
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 10.52700
-Time to perform OA Inter 23.72900
+fallbacks due to missing points-to information. 16221
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 9.76900
+Time to perform OA Inter 23.27800
 OA Inter Visited methods: 13701
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2107,13 +2434,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.12100
+Configure Soot OA Inter 2.29400
 Applying package: cg
-Successfully applied package: cg 9.78700
+Successfully applied package: cg 11.15100
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 0.08300
-Time to perform OA Inter 11.99600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.08500
+Time to perform OA Inter 13.53700
 OA Inter Visited methods: 33
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2135,13 +2466,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.65700
+Configure Soot OA Inter 2.19700
 Applying package: cg
-Successfully applied package: cg 9.96300
+Successfully applied package: cg 12.52600
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 0.09500
-Time to perform OA Inter 12.72000
+fallbacks due to missing points-to information. 1
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.09900
+Time to perform OA Inter 14.82700
 OA Inter Visited methods: 33
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2163,13 +2498,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.64900
+Configure Soot OA Inter 2.13000
 Applying package: cg
-Successfully applied package: cg 9.95800
+Successfully applied package: cg 10.31800
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 0.11600
-Time to perform OA Inter 12.72700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.12700
+Time to perform OA Inter 12.58000
 OA Inter Visited methods: 66
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2191,9 +2530,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.10700
+Configure Soot OA Inter 2.11400
 Applying package: cg
-Successfully applied package: cg 9.64100
+Successfully applied package: cg 10.05800
 Applying package: wjtp
 countEdges: 17228
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.update.TransportUpdateAction;shardOperation(UpdateRequest, ActionListener<UpdateResponse>, int);d896886973660785aac45275ddb110c1a6babc57
@@ -2210,9 +2549,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.56500
+Configure Soot OA Inter 2.72200
 Applying package: cg
-Successfully applied package: cg 10.23800
+Successfully applied package: cg 10.44300
 Applying package: wjtp
 countEdges: 17228
 OA interference in class TransportUpdateAction$4, method void onResponse(java.lang.Object), execution of line 250 overrides 250, assigning to variable ReplicationResponse.<org.elasticsearch.action.support.replication.ReplicationResponse: org.elasticsearch.action.support.replication.ReplicationResponse$ShardInfo shardInfo>, 
@@ -2227,8 +2566,12 @@ at org.elasticsearch.action.update.TransportUpdateAction$4.onResponse(TransportU
 at org.elasticsearch.action.update.UpdateResponse.<init>(UpdateResponse.java:52)
 at org.elasticsearch.action.DocWriteResponse.<init>(DocWriteResponse.java:48)
  
-Successfully applied package: wjtp 7.10700
-Time to perform OA Inter 19.91800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 4174
+assignments:
+Successfully applied package: wjtp 6.57100
+Time to perform OA Inter 19.75300
 OA Inter Visited methods: 6642
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2252,13 +2595,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.22800
+Configure Soot OA Inter 2.62000
 Applying package: cg
-Successfully applied package: cg 11.10900
+Successfully applied package: cg 10.46700
 Applying package: wjtp
 countEdges: 17228
-Successfully applied package: wjtp 1.68900
-Time to perform OA Inter 15.03100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 16
+assignments:
+Successfully applied package: wjtp 1.36200
+Time to perform OA Inter 14.45400
 OA Inter Visited methods: 763
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2280,13 +2627,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.64900
+Configure Soot OA Inter 2.61800
 Applying package: cg
-Successfully applied package: cg 9.46800
+Successfully applied package: cg 10.74200
 Applying package: wjtp
 countEdges: 16144
-Successfully applied package: wjtp 1.28500
-Time to perform OA Inter 13.40700
+fallbacks due to missing points-to information. 1320
+assignments:
+comparisons made using points-to information: 191
+assignments:
+Successfully applied package: wjtp 1.32300
+Time to perform OA Inter 14.68800
 OA Inter Visited methods: 3202
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2308,13 +2659,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.67300
+Configure Soot OA Inter 2.13500
 Applying package: cg
-Successfully applied package: cg 9.82700
+Successfully applied package: cg 9.46300
 Applying package: wjtp
 countEdges: 16144
-Successfully applied package: wjtp 2.34900
-Time to perform OA Inter 14.85500
+fallbacks due to missing points-to information. 2726
+assignments:
+comparisons made using points-to information: 434
+assignments:
+Successfully applied package: wjtp 1.91400
+Time to perform OA Inter 13.51700
 OA Inter Visited methods: 4957
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2336,13 +2691,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.18800
+Configure Soot OA Inter 2.16900
 Applying package: cg
-Successfully applied package: cg 9.68700
+Successfully applied package: cg 9.77400
 Applying package: wjtp
 countEdges: 16144
-Successfully applied package: wjtp 1.00400
-Time to perform OA Inter 12.88500
+fallbacks due to missing points-to information. 1134
+assignments:
+comparisons made using points-to information: 183
+assignments:
+Successfully applied package: wjtp 1.09600
+Time to perform OA Inter 13.04400
 OA Inter Visited methods: 2500
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2364,13 +2723,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.16200
+Configure Soot OA Inter 2.16700
 Applying package: cg
-Successfully applied package: cg 9.28800
+Successfully applied package: cg 8.98700
 Applying package: wjtp
 countEdges: 15861
-Successfully applied package: wjtp 0.05200
-Time to perform OA Inter 11.50700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.04500
+Time to perform OA Inter 11.20400
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2392,7 +2755,7 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.95600
+Configure Soot OA Inter 1.13000
 Applying package: cg
 Error applying package: cg
 java.lang.RuntimeException: Unresolved type org.elasticsearch.common.inject.Module
@@ -2417,20 +2780,26 @@ java.lang.RuntimeException: Unresolved type org.elasticsearch.common.inject.Modu
 	at soot.Pack.apply(Pack.java:118)
 	at br.unb.cic.analysis.SootWrapper.applyPackage(SootWrapper.java:200)
 	at br.unb.cic.analysis.SootWrapper.applyPackages(SootWrapper.java:192)
-	at br.unb.cic.analysis.Main.runOverrideAssignmentAnalysis(Main.java:375)
-	at br.unb.cic.analysis.Main.runAnalysis(Main.java:256)
+	at br.unb.cic.analysis.Main.runOverrideAssignmentAnalysis(Main.java:364)
+	at br.unb.cic.analysis.Main.runAnalysis(Main.java:245)
 	at br.unb.cic.analysis.Main.main(Main.java:83)
-Successfully applied package: cg 2.63800
+Successfully applied package: cg 3.17900
 Applying package: wjtp
 countEdges: 6918
-Successfully applied package: wjtp 0.33800
-Time to perform OA Inter 3.93700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.46200
+Time to perform OA Inter 4.77900
 OA Inter Visited methods: 581
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.index.query.support.NestedInnerQueryParseSupport;setPathLevel();59cb67c7bd0ab6311115b20954e013412b676b29
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2446,13 +2815,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.57100
+Configure Soot OA Inter 2.59600
 Applying package: cg
-Successfully applied package: cg 5.18700
+Successfully applied package: cg 4.76400
 Applying package: wjtp
 countEdges: 8235
-Successfully applied package: wjtp 0.07200
-Time to perform OA Inter 7.83500
+fallbacks due to missing points-to information. 6
+assignments:
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.07800
+Time to perform OA Inter 7.44300
 OA Inter Visited methods: 18
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2474,13 +2847,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 2.05500
+Configure Soot OA Inter 2.20300
 Applying package: cg
-Successfully applied package: cg 4.54800
+Successfully applied package: cg 4.80400
 Applying package: wjtp
 countEdges: 8235
-Successfully applied package: wjtp 0.05200
-Time to perform OA Inter 6.65900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.06800
+Time to perform OA Inter 7.08100
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2518,13 +2895,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.40900
+Configure Soot OA Inter 1.97200
 Applying package: cg
-Successfully applied package: cg 2.85900
+Successfully applied package: cg 3.46900
 Applying package: wjtp
 countEdges: 4754
-Successfully applied package: wjtp 0.41700
-Time to perform OA Inter 4.68900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.58400
+Time to perform OA Inter 6.03000
 OA Inter Visited methods: 89
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2546,13 +2927,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.16800
+Configure Soot OA Inter 0.95800
 Applying package: cg
-Successfully applied package: cg 5.09000
+Successfully applied package: cg 4.50400
 Applying package: wjtp
 countEdges: 14939
-Successfully applied package: wjtp 0.02100
-Time to perform OA Inter 6.28300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02900
+Time to perform OA Inter 5.49500
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2574,9 +2959,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.26300
+Configure Soot OA Inter 1.41800
 Applying package: cg
-Successfully applied package: cg 2.98100
+Successfully applied package: cg 2.73100
 Applying package: wjtp
 countEdges: 6099
 OA interference in class SlimTableFactory, method void <init>(), execution of line 24 overrides 31, assigning to variable l1[l2], 
@@ -2593,8 +2978,12 @@ at java.lang.String.toLowerCase(String.java:2670)
 at java.lang.String.toLowerCase(String.java:2626)
 at java.lang.Character.toChars(Character.java:5174)
  
-Successfully applied package: wjtp 1.40300
-Time to perform OA Inter 5.65400
+fallbacks due to missing points-to information. 16
+assignments:
+comparisons made using points-to information: 86
+assignments:
+Successfully applied package: wjtp 1.18600
+Time to perform OA Inter 5.34400
 OA Inter Visited methods: 2588
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2618,13 +3007,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.95100
+Configure Soot OA Inter 0.73400
 Applying package: cg
-Successfully applied package: cg 0.34000
+Successfully applied package: cg 0.26900
 Applying package: wjtp
 countEdges: 98
-Successfully applied package: wjtp 0.02100
-Time to perform OA Inter 1.31800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01800
+Time to perform OA Inter 1.02400
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2646,13 +3039,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.94000
+Configure Soot OA Inter 0.97600
 Applying package: cg
-Successfully applied package: cg 0.39000
+Successfully applied package: cg 0.38800
 Applying package: wjtp
 countEdges: 160
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.00800
-Time to perform OA Inter 1.34300
+Time to perform OA Inter 1.37600
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2680,13 +3077,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.21900
+Configure Soot OA Inter 0.91400
 Applying package: cg
-Successfully applied package: cg 3.40100
+Successfully applied package: cg 2.61800
 Applying package: wjtp
 countEdges: 4789
-Successfully applied package: wjtp 0.01500
-Time to perform OA Inter 4.63900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03300
+Time to perform OA Inter 3.57000
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2718,13 +3119,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.23500
+Configure Soot OA Inter 0.96600
 Applying package: cg
-Successfully applied package: cg 0.75200
+Successfully applied package: cg 0.74600
 Applying package: wjtp
 countEdges: 734
-Successfully applied package: wjtp 0.39300
-Time to perform OA Inter 2.38500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.30400
+Time to perform OA Inter 2.02000
 OA Inter Visited methods: 183
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2746,13 +3151,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.25400
+Configure Soot OA Inter 1.27800
 Applying package: cg
-Successfully applied package: cg 0.61000
+Successfully applied package: cg 0.79100
 Applying package: wjtp
 countEdges: 666
-Successfully applied package: wjtp 0.33900
-Time to perform OA Inter 2.20800
+fallbacks due to missing points-to information. 965
+assignments:
+comparisons made using points-to information: 374
+assignments:
+Successfully applied package: wjtp 0.50900
+Time to perform OA Inter 2.58300
 OA Inter Visited methods: 324
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2774,9 +3183,9 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.21500
+Configure Soot OA Inter 1.26600
 Applying package: cg
-Successfully applied package: cg 0.71500
+Successfully applied package: cg 0.74800
 Applying package: wjtp
 countEdges: 608
 OA interference in class SpringBootServletInitializer, method org.springframework.web.context.WebApplicationContext createRootApplicationContext(javax.servlet.ServletContext), execution of line 87 overrides 88, assigning to variable SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass>, 
@@ -2790,8 +3199,12 @@ at org.springframework.boot.context.web.SpringBootServletInitializer.createRootA
 at org.springframework.boot.builder.SpringApplicationBuilder.main(SpringApplicationBuilder.java:348)
 at org.springframework.boot.SpringApplication.setMainApplicationClass(SpringApplication.java:691)
  
-Successfully applied package: wjtp 0.47300
-Time to perform OA Inter 2.41200
+fallbacks due to missing points-to information. 1027
+assignments:
+comparisons made using points-to information: 341
+assignments:
+Successfully applied package: wjtp 0.43400
+Time to perform OA Inter 2.45600
 OA Inter Visited methods: 312
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2815,13 +3228,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.14300
+Configure Soot OA Inter 1.12400
 Applying package: cg
-Successfully applied package: cg 2.03700
+Successfully applied package: cg 2.36300
 Applying package: wjtp
 countEdges: 3184
-Successfully applied package: wjtp 0.00700
-Time to perform OA Inter 3.19100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01100
+Time to perform OA Inter 3.50300
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2843,13 +3260,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 1.19900
+Configure Soot OA Inter 1.22000
 Applying package: cg
-Successfully applied package: cg 0.75400
+Successfully applied package: cg 0.67200
 Applying package: wjtp
 countEdges: 564
-Successfully applied package: wjtp 0.13700
-Time to perform OA Inter 2.09600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.08500
+Time to perform OA Inter 1.98100
 OA Inter Visited methods: 29
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2871,13 +3292,17 @@ CG configuration init
 Enable Spark CG
 CG configuration completed.
 Depth limit: 10
-Configure Soot OA Inter 0.96100
+Configure Soot OA Inter 0.65700
 Applying package: cg
-Successfully applied package: cg 0.47800
+Successfully applied package: cg 0.39000
 Applying package: wjtp
 countEdges: 261
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.01600
-Time to perform OA Inter 1.46000
+Time to perform OA Inter 1.06800
 OA Inter Visited methods: 12
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
