@@ -12,13 +12,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.10100
+Configure Soot OA Inter 1.79200
 Applying package: cg
-Successfully applied package: cg 16.15400
+Successfully applied package: cg 12.45500
 Applying package: wjtp
 countEdges: 57589
-Successfully applied package: wjtp 0.03700
-Time to perform OA Inter 18.30000
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02900
+Time to perform OA Inter 14.28200
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -40,13 +44,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.25100
+Configure Soot OA Inter 1.27100
 Applying package: cg
-Successfully applied package: cg 12.60800
+Successfully applied package: cg 11.96500
 Applying package: wjtp
 countEdges: 57589
-Successfully applied package: wjtp 0.03300
-Time to perform OA Inter 13.89900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03200
+Time to perform OA Inter 13.27400
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -68,13 +76,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.92500
+Configure Soot OA Inter 0.90600
 Applying package: cg
-Successfully applied package: cg 0.73400
+Successfully applied package: cg 0.81400
 Applying package: wjtp
 countEdges: 1571
-Successfully applied package: wjtp 0.07400
-Time to perform OA Inter 1.73900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.09100
+Time to perform OA Inter 1.81800
 OA Inter Visited methods: 18
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -96,9 +108,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.99700
+Configure Soot OA Inter 1.21800
 Applying package: cg
-Successfully applied package: cg 4.85900
+Successfully applied package: cg 5.40100
 Applying package: wjtp
 countEdges: 30155
 Execution exceeded the timeout of 1200 secondsRunning soot scenario OpenTripPlanner;org.opentripplanner.routing.spt.MultiShortestPathTree;dominates(State, State);4c506dce43775704919d084f0acfba86d251bf4a
@@ -115,13 +127,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.67200
+Configure Soot OA Inter 1.39100
 Applying package: cg
-Successfully applied package: cg 6.17500
+Successfully applied package: cg 5.34500
 Applying package: wjtp
 countEdges: 42135
-Successfully applied package: wjtp 0.12100
-Time to perform OA Inter 7.97400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.09200
+Time to perform OA Inter 6.83800
 OA Inter Visited methods: 27
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -143,9 +159,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.86400
+Configure Soot OA Inter 1.05400
 Applying package: cg
-Successfully applied package: cg 1.23800
+Successfully applied package: cg 1.51100
 Applying package: wjtp
 countEdges: 4593
 Execution exceeded the timeout of 1200 secondsRunning soot scenario resty-gwt;org.fusesource.restygwt.rebind.DirectRestServiceInterfaceClassCreator;getMethodCallback(JMethod);867b917c43c32acbdcac55767e7f04334006c866
@@ -162,19 +178,26 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.11300
+Configure Soot OA Inter 1.06300
 Applying package: cg
-Successfully applied package: cg 2.26400
+Successfully applied package: cg 1.99400
 Applying package: wjtp
 countEdges: 9709
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.03100
-Time to perform OA Inter 3.41500
+Time to perform OA Inter 3.09400
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+Error getting the previous content of the JSON file out.json
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario storm;org.apache.storm.kafka.spout.KafkaSpout;open(Map, TopologyContext, SpoutOutputCollector);ad2be678831b3b060229fd936e3908110162b7ac
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -190,13 +213,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.00300
+Configure Soot OA Inter 0.80800
 Applying package: cg
-Successfully applied package: cg 1.02300
+Successfully applied package: cg 0.96000
 Applying package: wjtp
 countEdges: 2406
-Successfully applied package: wjtp 0.09900
-Time to perform OA Inter 2.13100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 93
+assignments:
+Successfully applied package: wjtp 0.10500
+Time to perform OA Inter 1.87900
 OA Inter Visited methods: 106
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -218,13 +245,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.99700
+Configure Soot OA Inter 0.98200
 Applying package: cg
-Successfully applied package: cg 0.88000
+Successfully applied package: cg 1.00700
 Applying package: wjtp
 countEdges: 2406
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 6
+assignments:
 Successfully applied package: wjtp 0.03600
-Time to perform OA Inter 1.92000
+Time to perform OA Inter 2.03000
 OA Inter Visited methods: 41
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -246,13 +277,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.01800
+Configure Soot OA Inter 1.00200
 Applying package: cg
-Successfully applied package: cg 1.02400
+Successfully applied package: cg 1.03200
 Applying package: wjtp
 countEdges: 2406
-Successfully applied package: wjtp 0.01100
-Time to perform OA Inter 2.05900
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01400
+Time to perform OA Inter 2.05400
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -274,13 +309,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.78800
+Configure Soot OA Inter 0.99300
 Applying package: cg
-Successfully applied package: cg 0.74700
+Successfully applied package: cg 0.89700
 Applying package: wjtp
 countEdges: 1942
-Successfully applied package: wjtp 0.03800
-Time to perform OA Inter 1.57800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.04900
+Time to perform OA Inter 1.94400
 OA Inter Visited methods: 25
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -302,13 +341,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.14800
+Configure Soot OA Inter 1.13500
 Applying package: cg
-Successfully applied package: cg 1.16300
+Successfully applied package: cg 1.28000
 Applying package: wjtp
 countEdges: 2943
-Successfully applied package: wjtp 0.01800
-Time to perform OA Inter 2.33500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02300
+Time to perform OA Inter 2.44400
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -330,13 +373,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.88400
+Configure Soot OA Inter 1.07100
 Applying package: cg
-Successfully applied package: cg 1.71800
+Successfully applied package: cg 2.11400
 Applying package: wjtp
 countEdges: 8450
-Successfully applied package: wjtp 27.94000
-Time to perform OA Inter 30.54700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 20
+assignments:
+Successfully applied package: wjtp 28.38300
+Time to perform OA Inter 31.57300
 OA Inter Visited methods: 23367
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -358,13 +405,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.07300
+Configure Soot OA Inter 1.04700
 Applying package: cg
-Successfully applied package: cg 1.98900
+Successfully applied package: cg 1.79100
 Applying package: wjtp
 countEdges: 8220
-Successfully applied package: wjtp 0.70700
-Time to perform OA Inter 3.77400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 1024
+assignments:
+Successfully applied package: wjtp 0.71200
+Time to perform OA Inter 3.55500
 OA Inter Visited methods: 955
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -386,13 +437,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.04900
+Configure Soot OA Inter 0.90300
 Applying package: cg
-Successfully applied package: cg 1.97600
+Successfully applied package: cg 1.60500
 Applying package: wjtp
 countEdges: 8005
-Successfully applied package: wjtp 24.57200
-Time to perform OA Inter 27.60300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 25.65100
+Time to perform OA Inter 28.16400
 OA Inter Visited methods: 18601
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -414,19 +469,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.83200
+Configure Soot OA Inter 0.97800
 Applying package: cg
-Successfully applied package: cg 1.68400
+Successfully applied package: cg 1.89100
 Applying package: wjtp
 countEdges: 7629
-Successfully applied package: wjtp 2.12200
-Time to perform OA Inter 4.64300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 26
+assignments:
+Successfully applied package: wjtp 2.26800
+Time to perform OA Inter 5.14400
 OA Inter Visited methods: 2669
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario retrofit;retrofit.RestAdapter;logAndReplaceResponse(String, Response, long);2b6c719c6645f8e48dca6d0047c752069d321bc4
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -444,27 +505,41 @@ CG configuration completed.
 Depth limit: 20
 Configure Soot OA Inter 0.99000
 Applying package: cg
-Successfully applied package: cg 1.28900
+Successfully applied package: cg 1.30300
 Applying package: wjtp
 countEdges: 4831
-OA interference in class RestAdapter, method retrofit.client.Response logAndReplaceResponse(java.lang.String,retrofit.client.Response,long), execution of line 415 overrides 438, assigning to variable String.<java.lang.String: int hash>, 
+OA interference in class RestAdapter, method retrofit.client.Response logAndReplaceResponse(java.lang.String,retrofit.client.Response,long), execution of line 415 overrides 438, assigning to variable i, 
+Caused by line 415 flow:
+at retrofit.RestAdapter.logAndReplaceResponse(RestAdapter.java:415)
+at retrofit.android.AndroidLog.log(AndroidLog.java:17)
+And line 438 flow:
+at retrofit.RestAdapter.logAndReplaceResponse(RestAdapter.java:438)
+at retrofit.android.AndroidLog.log(AndroidLog.java:18)
+ 
+OA interference in class RestAdapter, method retrofit.client.Response logAndReplaceResponse(java.lang.String,retrofit.client.Response,long), execution of line 415 overrides 438, assigning to variable l0.<java.lang.String: char[] value>, 
 Caused by line 415 flow:
 at retrofit.RestAdapter.logAndReplaceResponse(RestAdapter.java:415)
 at retrofit.android.AndroidLog.log(AndroidLog.java:19)
 at java.lang.String.substring(String.java:1969)
+at java.lang.String.<init>(String.java:207)
 And line 438 flow:
 at retrofit.RestAdapter.logAndReplaceResponse(RestAdapter.java:438)
+at java.lang.String.<init>(String.java:491)
+at java.lang.String.<init>(String.java:426)
  
-Successfully applied package: wjtp 0.09000
-Time to perform OA Inter 2.37800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 96
+assignments:
+Successfully applied package: wjtp 0.09200
+Time to perform OA Inter 2.39800
 OA Inter Visited methods: 131
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 3
+ Number of conflicts: 26
  Results exported to out.txt
-Error getting the previous content of the JSON file out.json
  JSON Results exported to out.json
 ----------------------------
 Running soot scenario retrofit;retrofit.RestAdapter;logAndReplaceRequest(Request);2b6c719c6645f8e48dca6d0047c752069d321bc4
@@ -481,27 +556,42 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.00300
+Configure Soot OA Inter 1.00100
 Applying package: cg
-Successfully applied package: cg 1.31300
+Successfully applied package: cg 1.33200
 Applying package: wjtp
 countEdges: 4831
-OA interference in class RestAdapter, method retrofit.client.Request logAndReplaceRequest(retrofit.client.Request), execution of line 369 overrides 398, assigning to variable String.<java.lang.String: int hash>, 
+OA interference in class RestAdapter, method retrofit.client.Request logAndReplaceRequest(retrofit.client.Request), execution of line 369 overrides 398, assigning to variable i, 
+Caused by line 369 flow:
+at retrofit.RestAdapter.logAndReplaceRequest(RestAdapter.java:369)
+at retrofit.android.AndroidLog.log(AndroidLog.java:17)
+And line 398 flow:
+at retrofit.RestAdapter.logAndReplaceRequest(RestAdapter.java:398)
+at retrofit.android.AndroidLog.log(AndroidLog.java:18)
+ 
+OA interference in class RestAdapter, method retrofit.client.Request logAndReplaceRequest(retrofit.client.Request), execution of line 369 overrides 398, assigning to variable l0.<java.lang.String: char[] value>, 
 Caused by line 369 flow:
 at retrofit.RestAdapter.logAndReplaceRequest(RestAdapter.java:369)
 at retrofit.android.AndroidLog.log(AndroidLog.java:19)
 at java.lang.String.substring(String.java:1969)
+at java.lang.String.<init>(String.java:207)
 And line 398 flow:
 at retrofit.RestAdapter.logAndReplaceRequest(RestAdapter.java:398)
+at java.lang.String.<init>(String.java:491)
+at java.lang.String.<init>(String.java:426)
  
-Successfully applied package: wjtp 0.08200
-Time to perform OA Inter 2.40600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 90
+assignments:
+Successfully applied package: wjtp 0.09700
+Time to perform OA Inter 2.44100
 OA Inter Visited methods: 145
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 3
+ Number of conflicts: 26
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -519,13 +609,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.81200
+Configure Soot OA Inter 0.99300
 Applying package: cg
-Successfully applied package: cg 1.10200
+Successfully applied package: cg 1.17600
 Applying package: wjtp
 countEdges: 3248
-Successfully applied package: wjtp 0.18300
-Time to perform OA Inter 2.10100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.21200
+Time to perform OA Inter 2.38600
 OA Inter Visited methods: 173
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -547,9 +641,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.43900
+Configure Soot OA Inter 1.51000
 Applying package: cg
-Successfully applied package: cg 6.98300
+Successfully applied package: cg 7.45300
 Applying package: wjtp
 countEdges: 53651
 Execution exceeded the timeout of 1200 secondsRunning soot scenario activiti;org.activiti.engine.impl.bpmn.behavior.UserTaskActivityBehavior;execute(ActivityExecution);bf46684ba62f5883673ea8fb0a14aecfe0aedea2
@@ -566,9 +660,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.36000
+Configure Soot OA Inter 1.49800
 Applying package: cg
-Successfully applied package: cg 6.79300
+Successfully applied package: cg 6.67200
 Applying package: wjtp
 countEdges: 53421
 Execution exceeded the timeout of 1200 secondsRunning soot scenario okhttp;com.squareup.okhttp.internal.bytes.GzipSource;consumeHeader(Deadline);1151c9853ccc3c9c3211c613b9b845b925f8c6a6
@@ -585,9 +679,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.61300
+Configure Soot OA Inter 1.51900
 Applying package: cg
-Successfully applied package: cg 9.59400
+Successfully applied package: cg 9.14300
 Applying package: wjtp
 countEdges: 78501
 Execution exceeded the timeout of 1200 secondsRunning soot scenario okhttp;com.squareup.okhttp.OkHttpClient;copyWithDefaults();35166168529bd27281685e56a0a122eff44460e9
@@ -608,13 +702,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.05900
+Configure Soot OA Inter 1.18100
 Applying package: cg
-Successfully applied package: cg 0.96300
+Successfully applied package: cg 1.15900
 Applying package: wjtp
 countEdges: 3715
-Successfully applied package: wjtp 0.00900
-Time to perform OA Inter 2.03600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01000
+Time to perform OA Inter 2.35600
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -636,19 +734,49 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.94700
+Configure Soot OA Inter 1.21400
 Applying package: cg
-Successfully applied package: cg 0.94200
+Successfully applied package: cg 1.14800
 Applying package: wjtp
 countEdges: 3715
-Successfully applied package: wjtp 1.08400
-Time to perform OA Inter 2.97800
+OA interference in class HikariPool, method void addConnection(), execution of line 344 overrides 356, assigning to variable loginTimeout, 
+Caused by line 344 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:344)
+And line 356 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:356)
+ 
+OA interference in class HikariPool, method void addConnection(), execution of line 348 overrides 356, assigning to variable loginTimeout, 
+Caused by line 348 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:348)
+And line 356 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:356)
+ 
+OA interference in class HikariPool, method void addConnection(), execution of line 341 overrides 356, assigning to variable loginTimeout, 
+Caused by line 341 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:341)
+And line 356 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:356)
+ 
+OA interference in class HikariPool, method void addConnection(), execution of line 339 overrides 356, assigning to variable acquisitionTimeout, 
+Caused by line 339 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:339)
+And line 356 flow:
+at com.zaxxer.hikari.HikariPool.addConnection(HikariPool.java:356)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 426
+assignments:
+Successfully applied package: wjtp 1.39400
+Time to perform OA Inter 3.76500
 OA Inter Visited methods: 1207
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 12
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario pushy;com.relayrides.pushy.apns.PushManager;handleConnectionFailure(ApnsConnection<T>, Throwable);58901c846e4f0874977c5aabbc34bcb4de3670e0
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -664,13 +792,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.02200
+Configure Soot OA Inter 1.02500
 Applying package: cg
-Successfully applied package: cg 0.91100
+Successfully applied package: cg 0.91200
 Applying package: wjtp
 countEdges: 1472
-Successfully applied package: wjtp 0.07700
-Time to perform OA Inter 2.01600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 148
+assignments:
+Successfully applied package: wjtp 0.08200
+Time to perform OA Inter 2.02400
 OA Inter Visited methods: 36
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -692,19 +824,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.02400
+Configure Soot OA Inter 1.02500
 Applying package: cg
-Successfully applied package: cg 0.92800
+Successfully applied package: cg 0.91600
 Applying package: wjtp
 countEdges: 1472
-Successfully applied package: wjtp 0.11000
-Time to perform OA Inter 2.06800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 73
+assignments:
+Successfully applied package: wjtp 0.11500
+Time to perform OA Inter 2.06400
 OA Inter Visited methods: 75
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario java-faker;com.github.javafaker.Faker;Faker(Locale, Random);ca42fcfaf45cae1754c58e02e1d5d2a58ec03561
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -720,19 +858,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.99000
+Configure Soot OA Inter 0.92000
 Applying package: cg
-Successfully applied package: cg 0.80400
+Successfully applied package: cg 0.80800
 Applying package: wjtp
 countEdges: 1227
-Successfully applied package: wjtp 0.20000
-Time to perform OA Inter 2.00100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 160
+assignments:
+Successfully applied package: wjtp 0.20900
+Time to perform OA Inter 1.94400
 OA Inter Visited methods: 245
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario swagger-core;io.swagger.jaxrs2.OperationParser;getSchemaFromAnnotation(io.swagger.oas.annotations.media.Schema);e7fea7c4889dbdd6a4e0b2d059c8aa0f126ab1c2
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -748,13 +892,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.99600
+Configure Soot OA Inter 0.99200
 Applying package: cg
-Successfully applied package: cg 1.15100
+Successfully applied package: cg 1.13700
 Applying package: wjtp
 countEdges: 2592
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 32
+assignments:
 Successfully applied package: wjtp 0.05100
-Time to perform OA Inter 2.20400
+Time to perform OA Inter 2.18600
 OA Inter Visited methods: 78
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -776,13 +924,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.98500
+Configure Soot OA Inter 0.87000
 Applying package: cg
-Successfully applied package: cg 0.78500
+Successfully applied package: cg 0.66900
 Applying package: wjtp
 countEdges: 1500
-Successfully applied package: wjtp 0.32900
-Time to perform OA Inter 2.10400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 21
+assignments:
+Successfully applied package: wjtp 0.25900
+Time to perform OA Inter 1.80400
 OA Inter Visited methods: 304
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -804,19 +956,49 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.99600
+Configure Soot OA Inter 0.98600
 Applying package: cg
-Successfully applied package: cg 0.64400
+Successfully applied package: cg 0.61000
 Applying package: wjtp
 countEdges: 645
-Successfully applied package: wjtp 0.02800
-Time to perform OA Inter 1.67300
+OA interference in class Bootstrap, method void <init>(io.dropwizard.Application), execution of line 67 overrides 71, assigning to variable $u2, 
+Caused by line 67 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:67)
+And line 71 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:71)
+ 
+OA interference in class Bootstrap, method void <init>(io.dropwizard.Application), execution of line 68 overrides 71, assigning to variable $u3, 
+Caused by line 68 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:68)
+And line 71 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:71)
+ 
+OA interference in class Bootstrap, method void <init>(io.dropwizard.Application), execution of line 65 overrides 71, assigning to variable $u1, 
+Caused by line 65 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:65)
+And line 71 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:71)
+ 
+OA interference in class Bootstrap, method void <init>(io.dropwizard.Application), execution of line 69 overrides 71, assigning to variable $u4, 
+Caused by line 69 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:69)
+And line 71 flow:
+at io.dropwizard.setup.Bootstrap.<init>(Bootstrap.java:71)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03300
+Time to perform OA Inter 1.63900
 OA Inter Visited methods: 14
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 4
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario jenkins;jenkins.slaves.DefaultJnlpSlaveReceiver;handle(String, JnlpSlaveHandshake);48b2b951dfb3438999ceda330093cac82b857ce6
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -832,9 +1014,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.88500
+Configure Soot OA Inter 1.58200
 Applying package: cg
-Successfully applied package: cg 10.83100
+Successfully applied package: cg 10.60600
 Applying package: wjtp
 countEdges: 73353
 Execution exceeded the timeout of 1200 secondsRunning soot scenario logback;ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicyBase;start();542843fd04a793fb9e0eea0c84d199e66d7c15af
@@ -851,19 +1033,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.33400
+Configure Soot OA Inter 1.28500
 Applying package: cg
-Successfully applied package: cg 2.50200
+Successfully applied package: cg 2.98300
 Applying package: wjtp
 countEdges: 15179
-Successfully applied package: wjtp 1.67900
-Time to perform OA Inter 5.52100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 1272
+assignments:
+Successfully applied package: wjtp 2.21500
+Time to perform OA Inter 6.48900
 OA Inter Visited methods: 1191
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario orientdb;com.orientechnologies.orient.core.Orient;startup();a5ce3bcc0a1d196745c575ad6602019f7a6b86f8
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -879,9 +1067,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.32500
+Configure Soot OA Inter 1.35300
 Applying package: cg
-Successfully applied package: cg 17.53800
+Successfully applied package: cg 18.76100
 Applying package: wjtp
 countEdges: 327359
 Execution exceeded the timeout of 1200 secondsRunning soot scenario SimianArmy;com.netflix.simianarmy.basic.janitor.BasicJanitorMonkeyContext;getInstanceJanitor();345ad9513aafff397050d613fa87ad06ddffe99d
@@ -898,19 +1086,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.05800
+Configure Soot OA Inter 1.03700
 Applying package: cg
-Successfully applied package: cg 0.33500
+Successfully applied package: cg 0.37100
 Applying package: wjtp
 countEdges: 261
-Successfully applied package: wjtp 0.21000
-Time to perform OA Inter 1.60800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 270
+assignments:
+Successfully applied package: wjtp 0.26400
+Time to perform OA Inter 1.68100
 OA Inter Visited methods: 93
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 3
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario SimianArmy;com.netflix.simianarmy.basic.BasicSimianArmyContext;BasicSimianArmyContext(String);c39c19bc6b9231601f6bc7358e638a99adf37e0d
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -926,19 +1120,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.86000
+Configure Soot OA Inter 1.04600
 Applying package: cg
-Successfully applied package: cg 0.30000
+Successfully applied package: cg 0.37700
 Applying package: wjtp
 countEdges: 261
-Successfully applied package: wjtp 0.52900
-Time to perform OA Inter 1.69500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 2484
+assignments:
+Successfully applied package: wjtp 0.63200
+Time to perform OA Inter 2.06200
 OA Inter Visited methods: 320
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 4
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario alluxio;tachyon.hadoop.HdfsFileInputStream;HdfsFileInputStream(TachyonFS, int, Path, Configuration, int);dafe76c90024a915224264b4862b33f40cb8478c
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -954,9 +1154,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.33200
+Configure Soot OA Inter 1.10100
 Applying package: cg
-Successfully applied package: cg 3.57900
+Successfully applied package: cg 3.34600
 Applying package: wjtp
 countEdges: 20822
 Execution exceeded the timeout of 1200 secondsRunning soot scenario voldemort;voldemort.VoldemortClientShell;VoldemortClientShell(ClientConfig, String, BufferedReader, PrintStream, PrintStream);b30fdfebe30c9b6e37b9fbc3fec0ff74cd19f997
@@ -973,9 +1173,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.38500
+Configure Soot OA Inter 1.71500
 Applying package: cg
-Successfully applied package: cg 22.02500
+Successfully applied package: cg 21.90900
 Applying package: wjtp
 countEdges: 138983
 Execution exceeded the timeout of 1200 secondsRunning soot scenario voldemort;voldemort.server.VoldemortConfig;VoldemortConfig(Props);4cc1c145819030c8e2baffe4c92383de14b8d880
@@ -992,9 +1192,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.70200
+Configure Soot OA Inter 1.68100
 Applying package: cg
-Successfully applied package: cg 22.19600
+Successfully applied package: cg 21.89400
 Applying package: wjtp
 countEdges: 138082
 OA interference in class VoldemortConfig, method void <init>(voldemort.utils.Props), execution of line 359 overrides 448, assigning to variable l1, 
@@ -1015,14 +1215,18 @@ at java.lang.Character.<clinit>(Character.java:142)
 at java.lang.Class.desiredAssertionStatus(Class.java:3217)
 at java.lang.Class.getName(Class.java:640)
  
-Successfully applied package: wjtp 11.34800
-Time to perform OA Inter 35.25800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 16922
+assignments:
+Successfully applied package: wjtp 11.20400
+Time to perform OA Inter 34.78800
 OA Inter Visited methods: 23781
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 3
+ Number of conflicts: 7
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -1040,19 +1244,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.02000
+Configure Soot OA Inter 0.90000
 Applying package: cg
-Successfully applied package: cg 1.58500
+Successfully applied package: cg 1.29900
 Applying package: wjtp
 countEdges: 3039
-Successfully applied package: wjtp 0.05800
-Time to perform OA Inter 2.66700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 523
+assignments:
+Successfully applied package: wjtp 0.06100
+Time to perform OA Inter 2.26500
 OA Inter Visited methods: 64
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 4
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario libgdx;com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;copy(Lwjgl3ApplicationConfiguration);da27e2dae56be0a159e82231e5c3a5b83b099063
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1068,19 +1278,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.79900
+Configure Soot OA Inter 1.01200
 Applying package: cg
-Successfully applied package: cg 1.47300
+Successfully applied package: cg 1.58500
 Applying package: wjtp
 countEdges: 3039
-Successfully applied package: wjtp 0.02800
-Time to perform OA Inter 2.30400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 31
+assignments:
+Successfully applied package: wjtp 0.03100
+Time to perform OA Inter 2.63600
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 4
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario RxJava;rx.internal.operators.OperatorMulticast;connect(Action1<?superSubscription>);a40a4130edcdadc2340da5787ca30353018173f2
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1096,9 +1312,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.29800
+Configure Soot OA Inter 2.47300
 Applying package: cg
-Successfully applied package: cg 14.26500
+Successfully applied package: cg 13.66200
 Applying package: wjtp
 countEdges: 142572
 Execution exceeded the timeout of 1200 secondsRunning soot scenario RxJava;rx.concurrency.TestScheduler;triggerActions(long);1c47b0cb26e6d971eefa42ebb3479099236b0125
@@ -1115,9 +1331,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.09600
+Configure Soot OA Inter 1.12200
 Applying package: cg
-Successfully applied package: cg 3.08100
+Successfully applied package: cg 3.26700
 Applying package: wjtp
 countEdges: 111309
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch-river-mongodb;org.elasticsearch.river.mongodb.MongoDBRiverDefinition;parseSettings(String, String, RiverSettings, ScriptService);3d4f99516ba3177f7d88a1f600923138a8b77cc8
@@ -1134,19 +1350,55 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.00400
+Configure Soot OA Inter 1.02500
 Applying package: cg
-Successfully applied package: cg 1.68300
+Successfully applied package: cg 1.65000
 Applying package: wjtp
 countEdges: 9807
-Successfully applied package: wjtp 0.38900
-Time to perform OA Inter 3.08200
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 582 overrides 683, assigning to variable $u9, 
+Caused by line 582 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:582)
+And line 683 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:683)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 617 overrides 683, assigning to variable $u13, 
+Caused by line 617 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:617)
+And line 683 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:683)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 635 overrides 683, assigning to variable $u16, 
+Caused by line 635 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:635)
+And line 683 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:683)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 576 overrides 683, assigning to variable $u8, 
+Caused by line 576 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:576)
+And line 683 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:683)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 515 overrides 683, assigning to variable $u3, 
+Caused by line 515 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:515)
+And line 683 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:683)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 212
+assignments:
+Successfully applied package: wjtp 0.37500
+Time to perform OA Inter 3.06200
 OA Inter Visited methods: 414
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 17
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch-river-mongodb;org.elasticsearch.river.mongodb.Slurper;assignCollections();3d4f99516ba3177f7d88a1f600923138a8b77cc8
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1162,19 +1414,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.03800
+Configure Soot OA Inter 1.03000
 Applying package: cg
-Successfully applied package: cg 1.63300
+Successfully applied package: cg 1.64900
 Applying package: wjtp
 countEdges: 9807
-Successfully applied package: wjtp 0.05400
-Time to perform OA Inter 2.73100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 3
+assignments:
+Successfully applied package: wjtp 0.04600
+Time to perform OA Inter 2.73300
 OA Inter Visited methods: 36
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 18
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch-river-mongodb;org.elasticsearch.river.mongodb.MongoDBRiverDefinition;parseSettings(String, String, RiverSettings, ScriptService);6b6ce8e851c6613213c4508c3f277a80649e0c7b
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1190,19 +1448,55 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.02100
+Configure Soot OA Inter 1.03300
 Applying package: cg
-Successfully applied package: cg 1.48900
+Successfully applied package: cg 1.64000
 Applying package: wjtp
 countEdges: 9738
-Successfully applied package: wjtp 0.45400
-Time to perform OA Inter 2.96900
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 500 overrides 646, assigning to variable $u3, 
+Caused by line 500 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:500)
+And line 646 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:646)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 602 overrides 646, assigning to variable $u13, 
+Caused by line 602 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:602)
+And line 646 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:646)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 561 overrides 646, assigning to variable $u8, 
+Caused by line 561 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:561)
+And line 646 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:646)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 620 overrides 646, assigning to variable $u16, 
+Caused by line 620 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:620)
+And line 646 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:646)
+ 
+OA interference in class MongoDBRiverDefinition, method org.elasticsearch.river.mongodb.MongoDBRiverDefinition parseSettings(java.lang.String,java.lang.String,org.elasticsearch.river.RiverSettings,org.elasticsearch.script.ScriptService), execution of line 567 overrides 646, assigning to variable $u9, 
+Caused by line 567 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:567)
+And line 646 flow:
+at org.elasticsearch.river.mongodb.MongoDBRiverDefinition.parseSettings(MongoDBRiverDefinition.java:646)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 797
+assignments:
+Successfully applied package: wjtp 0.45700
+Time to perform OA Inter 3.14300
 OA Inter Visited methods: 410
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 16
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch-river-mongodb;org.elasticsearch.river.mongodb.Indexer;applyAdvancedTransformation(QueueEntry, String);6b6ce8e851c6613213c4508c3f277a80649e0c7b
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1218,19 +1512,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.82800
+Configure Soot OA Inter 0.81300
 Applying package: cg
-Successfully applied package: cg 1.42100
+Successfully applied package: cg 1.62700
 Applying package: wjtp
 countEdges: 9738
-Successfully applied package: wjtp 0.29000
-Time to perform OA Inter 2.54400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.35900
+Time to perform OA Inter 2.80700
 OA Inter Visited methods: 415
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 3
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch-river-mongodb;org.elasticsearch.river.mongodb.Indexer;processBlockingQueue(QueueEntry);6b6ce8e851c6613213c4508c3f277a80649e0c7b
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1246,19 +1546,37 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.03400
+Configure Soot OA Inter 0.96400
 Applying package: cg
-Successfully applied package: cg 1.61700
+Successfully applied package: cg 1.63800
 Applying package: wjtp
 countEdges: 9738
-Successfully applied package: wjtp 0.89800
-Time to perform OA Inter 3.55500
+OA interference in class Indexer, method org.elasticsearch.river.mongodb.Timestamp processBlockingQueue(org.elasticsearch.river.mongodb.MongoDBRiver$QueueEntry), execution of line 161 overrides 176, assigning to variable $u0, 
+Caused by line 161 flow:
+at org.elasticsearch.river.mongodb.Indexer.processBlockingQueue(Indexer.java:161)
+And line 176 flow:
+at org.elasticsearch.river.mongodb.Indexer.processBlockingQueue(Indexer.java:176)
+ 
+OA interference in class Indexer, method org.elasticsearch.river.mongodb.Timestamp processBlockingQueue(org.elasticsearch.river.mongodb.MongoDBRiver$QueueEntry), execution of line 161 overrides 176, assigning to variable ioEx_2, 
+Caused by line 161 flow:
+at org.elasticsearch.river.mongodb.Indexer.processBlockingQueue(Indexer.java:161)
+And line 176 flow:
+at org.elasticsearch.river.mongodb.Indexer.processBlockingQueue(Indexer.java:176)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 1525
+assignments:
+Successfully applied package: wjtp 0.90500
+Time to perform OA Inter 3.51800
 OA Inter Visited methods: 1190
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 4
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch-river-mongodb;org.elasticsearch.river.mongodb.Slurper;run();6b6ce8e851c6613213c4508c3f277a80649e0c7b
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1274,13 +1592,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.01900
+Configure Soot OA Inter 1.04100
 Applying package: cg
-Successfully applied package: cg 1.64100
+Successfully applied package: cg 1.59400
 Applying package: wjtp
 countEdges: 9738
-Successfully applied package: wjtp 2.38500
-Time to perform OA Inter 5.05100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 559
+assignments:
+Successfully applied package: wjtp 2.34000
+Time to perform OA Inter 4.98100
 OA Inter Visited methods: 1834
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1302,19 +1624,23 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.03300
+Configure Soot OA Inter 1.04900
 Applying package: cg
-Successfully applied package: cg 1.63100
+Successfully applied package: cg 1.63400
 Applying package: wjtp
 countEdges: 9738
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 12
+assignments:
 Successfully applied package: wjtp 0.04700
-Time to perform OA Inter 2.72000
+Time to perform OA Inter 2.74100
 OA Inter Visited methods: 18
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 6
+ Number of conflicts: 9
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -1332,25 +1658,35 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.18400
+Configure Soot OA Inter 1.15300
 Applying package: cg
-Successfully applied package: cg 2.17700
+Successfully applied package: cg 2.14600
 Applying package: wjtp
 countEdges: 11911
-OA interference in class HSaslThriftClient, method me.prettyprint.cassandra.connection.client.HSaslThriftClient open(), execution of line 111 overrides 122, assigning to variable this.<me.prettyprint.cassandra.connection.client.HSaslThriftClient: org.apache.thrift.transport.TTransport transport>, 
-Caused by line 111 flow:
-at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThriftClient.java:111)
+OA interference in class HSaslThriftClient, method me.prettyprint.cassandra.connection.client.HSaslThriftClient open(), execution of line 95 overrides 122, assigning to variable $u1, 
+Caused by line 95 flow:
+at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThriftClient.java:95)
 And line 122 flow:
 at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThriftClient.java:122)
  
-Successfully applied package: wjtp 0.27400
-Time to perform OA Inter 3.64400
+OA interference in class HSaslThriftClient, method me.prettyprint.cassandra.connection.client.HSaslThriftClient open(), execution of line 95 overrides 122, assigning to variable socket, 
+Caused by line 95 flow:
+at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThriftClient.java:95)
+And line 122 flow:
+at me.prettyprint.cassandra.connection.client.HSaslThriftClient.open(HSaslThriftClient.java:122)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 204
+assignments:
+Successfully applied package: wjtp 0.28000
+Time to perform OA Inter 3.58800
 OA Inter Visited methods: 163
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 1
+ Number of conflicts: 11
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -1368,13 +1704,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.18600
+Configure Soot OA Inter 1.17000
 Applying package: cg
-Successfully applied package: cg 1.99300
+Successfully applied package: cg 2.10500
 Applying package: wjtp
 countEdges: 11889
-Successfully applied package: wjtp 0.06200
-Time to perform OA Inter 3.24700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 4
+assignments:
+Successfully applied package: wjtp 0.05600
+Time to perform OA Inter 3.33600
 OA Inter Visited methods: 36
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1396,13 +1736,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.19700
+Configure Soot OA Inter 1.00700
 Applying package: cg
-Successfully applied package: cg 1.94400
+Successfully applied package: cg 1.75300
 Applying package: wjtp
 countEdges: 11889
-Successfully applied package: wjtp 0.04100
-Time to perform OA Inter 3.18800
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.04000
+Time to perform OA Inter 2.80400
 OA Inter Visited methods: 22
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1424,9 +1768,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.91100
+Configure Soot OA Inter 1.09800
 Applying package: cg
-Successfully applied package: cg 1.40500
+Successfully applied package: cg 1.76500
 Applying package: wjtp
 countEdges: 7775
 Execution exceeded the timeout of 1200 secondsRunning soot scenario titan;com.thinkaurelius.titan.graphdb.database.serialize.SerializerInitialization;initialize(Serializer);387c16ea05ef9fa312f37139228d2bbf61455ff4
@@ -1443,13 +1787,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.25000
+Configure Soot OA Inter 1.17200
 Applying package: cg
-Successfully applied package: cg 3.89500
+Successfully applied package: cg 3.41500
 Applying package: wjtp
 countEdges: 27979
-Successfully applied package: wjtp 0.08700
-Time to perform OA Inter 5.23700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.06400
+Time to perform OA Inter 4.65600
 OA Inter Visited methods: 49
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1471,19 +1819,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.15000
+Configure Soot OA Inter 1.11500
 Applying package: cg
-Successfully applied package: cg 3.19000
+Successfully applied package: cg 3.42200
 Applying package: wjtp
 countEdges: 26023
-Successfully applied package: wjtp 0.16400
-Time to perform OA Inter 4.51000
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 28
+assignments:
+Successfully applied package: wjtp 0.18200
+Time to perform OA Inter 4.72800
 OA Inter Visited methods: 38
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario MPAndroidChart;com.xxmassdeveloper.mpchartexample.fragments.SimpleFragment;generateScatterData(int, float, int);af114d180da6ec5633d32c701ff5467f7629fcf3
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1499,13 +1853,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.95000
+Configure Soot OA Inter 0.86400
 Applying package: cg
-Successfully applied package: cg 1.77900
+Successfully applied package: cg 1.53500
 Applying package: wjtp
 countEdges: 3427
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.02200
-Time to perform OA Inter 2.75600
+Time to perform OA Inter 2.42600
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1527,19 +1885,43 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.91300
+Configure Soot OA Inter 1.04400
 Applying package: cg
-Successfully applied package: cg 1.52100
+Successfully applied package: cg 1.74200
 Applying package: wjtp
 countEdges: 3427
+OA interference in class ScatterChartActivity, method void onProgressChanged(android.widget.SeekBar,int,boolean), execution of line 168 overrides 183, assigning to variable $u5, 
+Caused by line 168 flow:
+at com.xxmassdeveloper.mpchartexample.ScatterChartActivity.onProgressChanged(ScatterChartActivity.java:168)
+And line 183 flow:
+at com.xxmassdeveloper.mpchartexample.ScatterChartActivity.onProgressChanged(ScatterChartActivity.java:183)
+ 
+OA interference in class ScatterChartActivity, method void onProgressChanged(android.widget.SeekBar,int,boolean), execution of line 178 overrides 183, assigning to variable $u7, 
+Caused by line 178 flow:
+at com.xxmassdeveloper.mpchartexample.ScatterChartActivity.onProgressChanged(ScatterChartActivity.java:178)
+And line 183 flow:
+at com.xxmassdeveloper.mpchartexample.ScatterChartActivity.onProgressChanged(ScatterChartActivity.java:183)
+ 
+OA interference in class ScatterChartActivity, method void onProgressChanged(android.widget.SeekBar,int,boolean), execution of line 173 overrides 183, assigning to variable $u6, 
+Caused by line 173 flow:
+at com.xxmassdeveloper.mpchartexample.ScatterChartActivity.onProgressChanged(ScatterChartActivity.java:173)
+And line 183 flow:
+at com.xxmassdeveloper.mpchartexample.ScatterChartActivity.onProgressChanged(ScatterChartActivity.java:183)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
 Successfully applied package: wjtp 0.03400
-Time to perform OA Inter 2.47600
+Time to perform OA Inter 2.82800
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 10
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario MPAndroidChart;com.xxmassdeveloper.mpchartexample.ScatterChartActivity;onCreate(Bundle);af114d180da6ec5633d32c701ff5467f7629fcf3
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1555,19 +1937,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.07700
+Configure Soot OA Inter 0.85500
 Applying package: cg
-Successfully applied package: cg 1.77200
+Successfully applied package: cg 1.47300
 Applying package: wjtp
 countEdges: 3427
-Successfully applied package: wjtp 0.02200
-Time to perform OA Inter 2.87600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02300
+Time to perform OA Inter 2.35700
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario MPAndroidChart;com.xxmassdeveloper.mpchartexample.LineChartActivity2;onCreate(Bundle);9297923f09460d0484cd713b0abbeaea9b888ec0
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1583,13 +1971,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.04500
+Configure Soot OA Inter 0.95900
 Applying package: cg
-Successfully applied package: cg 1.43700
+Successfully applied package: cg 1.60600
 Applying package: wjtp
 countEdges: 3225
-Successfully applied package: wjtp 0.02800
-Time to perform OA Inter 2.51500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03500
+Time to perform OA Inter 2.60600
 OA Inter Visited methods: 2
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1611,13 +2003,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.84400
+Configure Soot OA Inter 0.83800
 Applying package: cg
-Successfully applied package: cg 1.35300
+Successfully applied package: cg 1.30900
 Applying package: wjtp
 countEdges: 3225
-Successfully applied package: wjtp 0.03000
-Time to perform OA Inter 2.23100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02600
+Time to perform OA Inter 2.17800
 OA Inter Visited methods: 3
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1639,13 +2035,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.04200
+Configure Soot OA Inter 0.85000
 Applying package: cg
-Successfully applied package: cg 1.61900
+Successfully applied package: cg 1.32300
 Applying package: wjtp
 countEdges: 3225
-Successfully applied package: wjtp 0.00900
-Time to perform OA Inter 2.67600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.00800
+Time to perform OA Inter 2.18600
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1667,13 +2067,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.03800
+Configure Soot OA Inter 1.04900
 Applying package: cg
-Successfully applied package: cg 1.61100
+Successfully applied package: cg 1.64700
 Applying package: wjtp
 countEdges: 3225
-Successfully applied package: wjtp 0.00900
-Time to perform OA Inter 2.66500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01000
+Time to perform OA Inter 2.71200
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1699,13 +2103,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.89900
+Configure Soot OA Inter 1.06400
 Applying package: cg
-Successfully applied package: cg 2.37000
+Successfully applied package: cg 2.94500
 Applying package: wjtp
 countEdges: 8485
-Successfully applied package: wjtp 0.03000
-Time to perform OA Inter 3.30500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.04100
+Time to perform OA Inter 4.05500
 OA Inter Visited methods: 30
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1727,13 +2135,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.68900
+Configure Soot OA Inter 2.70200
 Applying package: cg
-Successfully applied package: cg 184.21200
+Successfully applied package: cg 166.36800
 Applying package: wjtp
 countEdges: 548268
-Successfully applied package: wjtp 0.04400
-Time to perform OA Inter 186.95100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.04200
+Time to perform OA Inter 169.11700
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1755,9 +2167,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.64900
+Configure Soot OA Inter 2.36200
 Applying package: cg
-Successfully applied package: cg 175.35200
+Successfully applied package: cg 149.61700
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.support.replication.ReplicationOperationTests;testReplication();d896886973660785aac45275ddb110c1a6babc57
@@ -1774,19 +2186,49 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.31600
+Configure Soot OA Inter 2.32100
 Applying package: cg
-Successfully applied package: cg 49.50700
+Successfully applied package: cg 47.81500
 Applying package: wjtp
 countEdges: 420148
-Successfully applied package: wjtp 0.31800
-Time to perform OA Inter 52.14700
+OA interference in class ReplicationOperationTests, method void testReplication(), execution of line 106 overrides 116, assigning to variable $u8, 
+Caused by line 106 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:106)
+And line 116 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:116)
+ 
+OA interference in class ReplicationOperationTests, method void testReplication(), execution of line 106 overrides 116, assigning to variable primary, 
+Caused by line 106 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:106)
+And line 116 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:116)
+ 
+OA interference in class ReplicationOperationTests, method void testReplication(), execution of line 103 overrides 106, assigning to variable $u6, 
+Caused by line 103 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:103)
+And line 106 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:106)
+ 
+OA interference in class ReplicationOperationTests, method void testReplication(), execution of line 103 overrides 106, assigning to variable replica#28, 
+Caused by line 103 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:103)
+And line 106 flow:
+at org.elasticsearch.action.support.replication.ReplicationOperationTests.testReplication(ReplicationOperationTests.java:106)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 117
+assignments:
+Successfully applied package: wjtp 0.27300
+Time to perform OA Inter 50.41800
 OA Inter Visited methods: 285
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 5
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.index.IndexSettings;IndexSettings(IndexMetaData, Settings, Predicate<String>, IndexScopedSettings);d896886973660785aac45275ddb110c1a6babc57
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -1802,9 +2244,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.87000
+Configure Soot OA Inter 2.73200
 Applying package: cg
-Successfully applied package: cg 175.70400
+Successfully applied package: cg 159.57900
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.bulk.TransportShardBulkAction;update(IndexMetaData, BulkShardRequest, IndexShard, long[], VersionType[], Translog.Location, int, BulkItemRequest);d896886973660785aac45275ddb110c1a6babc57
@@ -1821,9 +2263,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.38900
+Configure Soot OA Inter 2.42900
 Applying package: cg
-Successfully applied package: cg 229.31900
+Successfully applied package: cg 163.23600
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.support.replication.TransportReplicationAction;doRun();d896886973660785aac45275ddb110c1a6babc57
@@ -1840,9 +2282,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.54700
+Configure Soot OA Inter 2.38400
 Applying package: cg
-Successfully applied package: cg 174.52900
+Successfully applied package: cg 160.23200
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.support.replication.ReplicationOperation;execute();d896886973660785aac45275ddb110c1a6babc57
@@ -1859,9 +2301,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.82600
+Configure Soot OA Inter 2.79700
 Applying package: cg
-Successfully applied package: cg 167.18700
+Successfully applied package: cg 160.08700
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.index.engine.InternalEngineTests;testRecoverFromForeignTranslog();d896886973660785aac45275ddb110c1a6babc57
@@ -1878,13 +2320,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.33100
+Configure Soot OA Inter 2.31900
 Applying package: cg
-Successfully applied package: cg 48.70700
+Successfully applied package: cg 51.10200
 Applying package: wjtp
 countEdges: 420148
-Successfully applied package: wjtp 0.12000
-Time to perform OA Inter 51.16400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.10700
+Time to perform OA Inter 53.53300
 OA Inter Visited methods: 67
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -1906,9 +2352,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.74100
+Configure Soot OA Inter 2.62000
 Applying package: cg
-Successfully applied package: cg 179.91300
+Successfully applied package: cg 165.26900
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.DocWriteResponse;writeTo(StreamOutput);d896886973660785aac45275ddb110c1a6babc57
@@ -1925,9 +2371,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.42500
+Configure Soot OA Inter 2.73500
 Applying package: cg
-Successfully applied package: cg 172.41000
+Successfully applied package: cg 162.08400
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.DocWriteResponse;readFrom(StreamInput);d896886973660785aac45275ddb110c1a6babc57
@@ -1944,35 +2390,47 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.87300
+Configure Soot OA Inter 2.50800
 Applying package: cg
-Successfully applied package: cg 172.07900
+Successfully applied package: cg 158.44400
 Applying package: wjtp
 countEdges: 548268
-OA interference in class DocWriteResponse, method void readFrom(org.elasticsearch.common.io.stream.StreamInput), execution of line 129 overrides 130, assigning to variable <org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository: boolean $assertionsDisabled>, 
+OA interference in class DocWriteResponse, method void readFrom(org.elasticsearch.common.io.stream.StreamInput), execution of line 129 overrides 130, assigning to variable l9, 
 Caused by line 129 flow:
 at org.elasticsearch.action.DocWriteResponse.readFrom(DocWriteResponse.java:129)
 at org.elasticsearch.common.io.stream.StreamInput.readZLong(StreamInput.java:266)
 at org.elasticsearch.common.io.stream.InputStreamStreamInput.readByte(InputStreamStreamInput.java:41)
 at org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.read(BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.java:711)
 at org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.checkAborted(BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.java:723)
-at org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository.<clinit>(BlobStoreIndexShardRepository.java:88)
+at org.elasticsearch.common.logging.ESLogger.debug(ESLogger.java:147)
+at org.elasticsearch.common.logging.ESLogger.debug(ESLogger.java:155)
+at org.elasticsearch.common.logging.LoggerMessageFormat.format(LoggerMessageFormat.java:59)
+at java.lang.String.indexOf(String.java:1718)
+at java.lang.String.indexOf(String.java:1769)
 And line 130 flow:
 at org.elasticsearch.action.DocWriteResponse.readFrom(DocWriteResponse.java:130)
 at org.elasticsearch.common.io.stream.StreamInput.readBoolean(StreamInput.java:367)
 at org.elasticsearch.common.io.stream.InputStreamStreamInput.readByte(InputStreamStreamInput.java:41)
 at org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.read(BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.java:711)
 at org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.checkAborted(BlobStoreIndexShardRepository$SnapshotContext$AbortableInputStream.java:723)
-at org.elasticsearch.index.snapshots.blobstore.BlobStoreIndexShardRepository.<clinit>(BlobStoreIndexShardRepository.java:88)
+at org.elasticsearch.common.logging.ESLogger.debug(ESLogger.java:147)
+at org.elasticsearch.common.logging.ESLogger.debug(ESLogger.java:155)
+at org.elasticsearch.common.logging.LoggerMessageFormat.format(LoggerMessageFormat.java:59)
+at java.lang.String.indexOf(String.java:1718)
+at java.lang.String.indexOf(String.java:1757)
  
-Successfully applied package: wjtp 26.85200
-Time to perform OA Inter 201.81600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 2460
+assignments:
+Successfully applied package: wjtp 25.89900
+Time to perform OA Inter 186.87300
 OA Inter Visited methods: 5180
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 58
+ Number of conflicts: 323
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -1990,19 +2448,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.72000
+Configure Soot OA Inter 2.72900
 Applying package: cg
-Successfully applied package: cg 184.17600
+Successfully applied package: cg 149.99100
 Applying package: wjtp
 countEdges: 548268
-Successfully applied package: wjtp 0.19300
-Time to perform OA Inter 187.09500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.11600
+Time to perform OA Inter 152.84400
 OA Inter Visited methods: 72
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.cluster.metadata.MetaDataCreateIndexService;createIndex(CreateIndexClusterStateUpdateRequest, ActionListener<ClusterStateUpdateResponse>);d896886973660785aac45275ddb110c1a6babc57
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2018,9 +2482,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.32200
+Configure Soot OA Inter 2.69500
 Applying package: cg
-Successfully applied package: cg 177.18900
+Successfully applied package: cg 161.15100
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.update.TransportUpdateAction;shardOperation(UpdateRequest, ActionListener<UpdateResponse>, int);d896886973660785aac45275ddb110c1a6babc57
@@ -2037,9 +2501,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.42200
+Configure Soot OA Inter 2.31500
 Applying package: cg
-Successfully applied package: cg 173.32900
+Successfully applied package: cg 157.70700
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.action.delete.TransportDeleteAction;executeDeleteRequestOnPrimary(DeleteRequest, IndexShard);d896886973660785aac45275ddb110c1a6babc57
@@ -2056,9 +2520,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.73300
+Configure Soot OA Inter 2.44900
 Applying package: cg
-Successfully applied package: cg 171.10100
+Successfully applied package: cg 162.76400
 Applying package: wjtp
 countEdges: 548268
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.rest.action.cat.RestNodesAction;getTableWithHeader(RestRequest);3764b3ff800c94293aba0bb0fa18c7df80a764f7
@@ -2075,9 +2539,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.59800
+Configure Soot OA Inter 2.74000
 Applying package: cg
-Successfully applied package: cg 172.53600
+Successfully applied package: cg 162.60300
 Applying package: wjtp
 countEdges: 520637
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.rest.action.cat.RestIndicesAction;getTableWithHeader(RestRequest);3764b3ff800c94293aba0bb0fa18c7df80a764f7
@@ -2094,9 +2558,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.49500
+Configure Soot OA Inter 2.36000
 Applying package: cg
-Successfully applied package: cg 160.14500
+Successfully applied package: cg 166.52300
 Applying package: wjtp
 countEdges: 520637
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.rest.action.cat.RestShardsAction;getTableWithHeader(RestRequest);3764b3ff800c94293aba0bb0fa18c7df80a764f7
@@ -2113,9 +2577,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.95300
+Configure Soot OA Inter 2.77900
 Applying package: cg
-Successfully applied package: cg 162.06600
+Successfully applied package: cg 167.36800
 Applying package: wjtp
 countEdges: 520637
 Execution exceeded the timeout of 1200 secondsRunning soot scenario elasticsearch;org.elasticsearch.common.settings.ClusterSettings;BUILT_IN_CLUSTER_SETTINGS;0404db65e3497452886173957729c8e82cfd4a03
@@ -2132,13 +2596,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.93300
+Configure Soot OA Inter 2.66300
 Applying package: cg
-Successfully applied package: cg 125.61500
+Successfully applied package: cg 125.91300
 Applying package: wjtp
 countEdges: 493888
-Successfully applied package: wjtp 0.03900
-Time to perform OA Inter 128.59400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03300
+Time to perform OA Inter 128.61500
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2160,19 +2628,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.07900
+Configure Soot OA Inter 0.85900
 Applying package: cg
-Successfully applied package: cg 2.84300
+Successfully applied package: cg 3.39400
 Applying package: wjtp
 countEdges: 17277
-Successfully applied package: wjtp 0.78800
-Time to perform OA Inter 4.71600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 1.01700
+Time to perform OA Inter 5.27500
 OA Inter Visited methods: 801
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.index.query.support.NestedInnerQueryParseSupport;setPathLevel();59cb67c7bd0ab6311115b20954e013412b676b29
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2188,19 +2662,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.61600
+Configure Soot OA Inter 2.66500
 Applying package: cg
-Successfully applied package: cg 93.27000
+Successfully applied package: cg 91.44600
 Applying package: wjtp
 countEdges: 367845
-Successfully applied package: wjtp 0.09100
-Time to perform OA Inter 95.98400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 2
+assignments:
+Successfully applied package: wjtp 0.10300
+Time to perform OA Inter 94.22300
 OA Inter Visited methods: 24
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 4
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario elasticsearch;org.elasticsearch.index.query.MultiMatchQueryBuilder;doXContent(XContentBuilder, Params);59cb67c7bd0ab6311115b20954e013412b676b29
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2216,13 +2696,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 2.59600
+Configure Soot OA Inter 2.49000
 Applying package: cg
-Successfully applied package: cg 90.11800
+Successfully applied package: cg 93.99800
 Applying package: wjtp
 countEdges: 367845
-Successfully applied package: wjtp 0.33400
-Time to perform OA Inter 93.05300
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.26600
+Time to perform OA Inter 96.76000
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2260,13 +2744,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.58700
+Configure Soot OA Inter 2.08000
 Applying package: cg
-Successfully applied package: cg 3.93900
+Successfully applied package: cg 4.08000
 Applying package: wjtp
 countEdges: 17431
-Successfully applied package: wjtp 0.83000
-Time to perform OA Inter 6.36100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.82500
+Time to perform OA Inter 6.99000
 OA Inter Visited methods: 337
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2288,19 +2776,25 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.13600
+Configure Soot OA Inter 1.20000
 Applying package: cg
-Successfully applied package: cg 4.20400
+Successfully applied package: cg 5.00400
 Applying package: wjtp
 countEdges: 25237
-Successfully applied package: wjtp 0.03100
-Time to perform OA Inter 5.37600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.03000
+Time to perform OA Inter 6.24200
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 2
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario fitnesse;fitnesse.testsystems.slim.tables.SlimTableFactory;SlimTableFactory();4d9ba9d221d879507440feb084fa7521b95111ec
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2316,9 +2810,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.13600
+Configure Soot OA Inter 1.14700
 Applying package: cg
-Successfully applied package: cg 6.08300
+Successfully applied package: cg 5.41300
 Applying package: wjtp
 countEdges: 39351
 OA interference in class SlimTableFactory, method void <init>(), execution of line 24 overrides 31, assigning to variable l1[l2], 
@@ -2335,14 +2829,18 @@ at java.lang.String.toLowerCase(String.java:2670)
 at java.lang.String.toLowerCase(String.java:2626)
 at java.lang.Character.toChars(Character.java:5174)
  
-Successfully applied package: wjtp 1.63500
-Time to perform OA Inter 8.86200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 102
+assignments:
+Successfully applied package: wjtp 1.34600
+Time to perform OA Inter 7.91800
 OA Inter Visited methods: 2588
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- Number of conflicts: 7
+ Number of conflicts: 33
  Results exported to out.txt
  JSON Results exported to out.json
 ----------------------------
@@ -2360,13 +2858,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.79700
+Configure Soot OA Inter 0.96000
 Applying package: cg
-Successfully applied package: cg 0.24400
+Successfully applied package: cg 0.29600
 Applying package: wjtp
 countEdges: 118
-Successfully applied package: wjtp 0.01800
-Time to perform OA Inter 1.06500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02200
+Time to perform OA Inter 1.28300
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2388,13 +2890,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.82200
+Configure Soot OA Inter 0.80400
 Applying package: cg
-Successfully applied package: cg 0.26300
+Successfully applied package: cg 0.30700
 Applying package: wjtp
 countEdges: 196
-Successfully applied package: wjtp 0.00600
-Time to perform OA Inter 1.09500
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.00800
+Time to perform OA Inter 1.12500
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2422,13 +2928,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.24700
+Configure Soot OA Inter 0.99500
 Applying package: cg
-Successfully applied package: cg 3.31900
+Successfully applied package: cg 2.61500
 Applying package: wjtp
 countEdges: 12008
-Successfully applied package: wjtp 0.02500
-Time to perform OA Inter 4.59700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02200
+Time to perform OA Inter 3.63600
 OA Inter Visited methods: 1
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2460,19 +2970,31 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.30000
+Configure Soot OA Inter 1.31000
 Applying package: cg
-Successfully applied package: cg 1.15700
+Successfully applied package: cg 1.14800
 Applying package: wjtp
 countEdges: 3911
-Successfully applied package: wjtp 1.07900
-Time to perform OA Inter 3.54200
+OA interference in class UndertowEmbeddedServletContainerFactory, method io.undertow.servlet.api.DeploymentManager createDeploymentManager(org.springframework.boot.context.embedded.ServletContextInitializer[]), execution of line 362 overrides 364, assigning to variable $u0, 
+Caused by line 362 flow:
+at org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createDeploymentManager(UndertowEmbeddedServletContainerFactory.java:362)
+And line 364 flow:
+at org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory.createDeploymentManager(UndertowEmbeddedServletContainerFactory.java:364)
+ 
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.86800
+Time to perform OA Inter 3.33400
 OA Inter Visited methods: 395
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
  Analysis results
 ----------------------------
- No conflicts detected
+ Number of conflicts: 1
+ Results exported to out.txt
+ JSON Results exported to out.json
 ----------------------------
 Running soot scenario spring-boot;org.springframework.boot.context.web.SpringBootServletInitializer;createRootApplicationContext(ServletContext);3444ebbc05b99a164474c14d6a6784f749514428
 Running ConflictDetectionAlgorithm{name='OA Inter'}
@@ -2488,13 +3010,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.30300
+Configure Soot OA Inter 1.05000
 Applying package: cg
-Successfully applied package: cg 1.13800
+Successfully applied package: cg 0.90500
 Applying package: wjtp
 countEdges: 3770
-Successfully applied package: wjtp 24.13100
-Time to perform OA Inter 26.57700
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 46151
+assignments:
+Successfully applied package: wjtp 24.15100
+Time to perform OA Inter 26.11100
 OA Inter Visited methods: 15054
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2516,9 +3042,9 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.28600
+Configure Soot OA Inter 0.93700
 Applying package: cg
-Successfully applied package: cg 1.05300
+Successfully applied package: cg 0.96400
 Applying package: wjtp
 countEdges: 3216
 OA interference in class SpringBootServletInitializer, method org.springframework.web.context.WebApplicationContext createRootApplicationContext(javax.servlet.ServletContext), execution of line 87 overrides 88, assigning to variable SpringApplication.<org.springframework.boot.SpringApplication: java.lang.Class mainApplicationClass>, 
@@ -2532,8 +3058,12 @@ at org.springframework.boot.context.web.SpringBootServletInitializer.createRootA
 at org.springframework.boot.builder.SpringApplicationBuilder.main(SpringApplicationBuilder.java:348)
 at org.springframework.boot.SpringApplication.setMainApplicationClass(SpringApplication.java:691)
  
-Successfully applied package: wjtp 13.93700
-Time to perform OA Inter 16.28400
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 31127
+assignments:
+Successfully applied package: wjtp 15.53600
+Time to perform OA Inter 17.44500
 OA Inter Visited methods: 8948
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2557,13 +3087,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.14500
+Configure Soot OA Inter 0.87000
 Applying package: cg
-Successfully applied package: cg 1.93300
+Successfully applied package: cg 2.00900
 Applying package: wjtp
 countEdges: 7707
-Successfully applied package: wjtp 0.00900
-Time to perform OA Inter 3.09200
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.01600
+Time to perform OA Inter 2.90000
 OA Inter Visited methods: 0
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2585,13 +3119,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 1.27100
+Configure Soot OA Inter 0.97200
 Applying package: cg
-Successfully applied package: cg 1.02600
+Successfully applied package: cg 0.81800
 Applying package: wjtp
 countEdges: 3031
-Successfully applied package: wjtp 0.11800
-Time to perform OA Inter 2.42100
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.08900
+Time to perform OA Inter 1.88400
 OA Inter Visited methods: 29
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!
@@ -2613,13 +3151,17 @@ CG configuration init
 Enable CHA CG
 CG configuration completed.
 Depth limit: 20
-Configure Soot OA Inter 0.72600
+Configure Soot OA Inter 0.98400
 Applying package: cg
-Successfully applied package: cg 0.92000
+Successfully applied package: cg 0.92200
 Applying package: wjtp
 countEdges: 3688
-Successfully applied package: wjtp 0.02500
-Time to perform OA Inter 1.67600
+fallbacks due to missing points-to information. 0
+assignments: []
+comparisons made using points-to information: 0
+assignments: []
+Successfully applied package: wjtp 0.02000
+Time to perform OA Inter 1.93100
 OA Inter Visited methods: 12
 PA Not Resolve CSV file generated successfully!
 OAAnalysis CSV export successful!

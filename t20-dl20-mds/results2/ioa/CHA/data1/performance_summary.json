@@ -3,8 +3,8 @@
     "callgraph": "CHA",
     "run_number": 1,
     "status": "SUCCESS",
-    "duration_seconds": 31445.72,
-    "peak_memory_gb": 20.0,
-    "peak_cpu_percent": 401.08,
-    "timestamp": "2026-04-07T03:03:33.158801"
+    "duration_seconds": 31323.35,
+    "peak_memory_gb": 13.35,
+    "peak_cpu_percent": 100.24,
+    "timestamp": "2026-04-18T21:00:07.706894"
 }
