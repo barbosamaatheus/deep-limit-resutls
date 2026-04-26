@@ -1,0 +1,37 @@
+elasticsearch;org.elasticsearch.cluster.metadata.MetaDataCreateIndexService;createIndex(CreateIndexClusterStateUpdateRequest, ActionListener<ClusterStateUpdateResponse>);d896886973660785aac45275ddb110c1a6babc57;false;1200.01200
+elasticsearch;org.elasticsearch.action.update.TransportUpdateAction;shardOperation(UpdateRequest, ActionListener<UpdateResponse>, int);d896886973660785aac45275ddb110c1a6babc57;true;13.97600
+elasticsearch;org.elasticsearch.action.delete.TransportDeleteAction;executeDeleteRequestOnPrimary(DeleteRequest, IndexShard);d896886973660785aac45275ddb110c1a6babc57;false;11.25400
+elasticsearch;org.elasticsearch.rest.action.cat.RestNodesAction;getTableWithHeader(RestRequest);3764b3ff800c94293aba0bb0fa18c7df80a764f7;false;11.52800
+elasticsearch;org.elasticsearch.rest.action.cat.RestIndicesAction;getTableWithHeader(RestRequest);3764b3ff800c94293aba0bb0fa18c7df80a764f7;false;10.88300
+elasticsearch;org.elasticsearch.rest.action.cat.RestShardsAction;getTableWithHeader(RestRequest);3764b3ff800c94293aba0bb0fa18c7df80a764f7;false;11.90500
+elasticsearch;org.elasticsearch.common.settings.ClusterSettings;BUILT_IN_CLUSTER_SETTINGS;0404db65e3497452886173957729c8e82cfd4a03;false;9.56200
+elasticsearch;org.elasticsearch.test.ESSingleNodeTestCase;newNode();0404db65e3497452886173957729c8e82cfd4a03;true;3.46100
+elasticsearch;org.elasticsearch.index.query.support.NestedInnerQueryParseSupport;setPathLevel();59cb67c7bd0ab6311115b20954e013412b676b29;false;7.42000
+elasticsearch;org.elasticsearch.index.query.MultiMatchQueryBuilder;doXContent(XContentBuilder, Params);59cb67c7bd0ab6311115b20954e013412b676b29;false;7.34200
+elasticsearch;org.elasticsearch.index.analysis.synonyms.SynonymsAnalysisTest;testSynonymsAnalysis();f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;6.74600
+elasticsearch;org.elasticsearch.index.analysis.commongrams.CommonGramsTokenFilterFactoryTests;testQueryModeCommonGramsAnalysis();f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;5.89400
+elasticsearch;org.elasticsearch.index.analysis.commongrams.CommonGramsTokenFilterFactoryTests;testCommonGramsAnalysis();f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;6.32600
+elasticsearch;org.elasticsearch.index.analysis.KuromojiAnalysisTests;createAnalysisService();f3d63095dbcc985e24162fbac4ee0d6914dc757d;true;1.81000
+elasticsearch;org.elasticsearch.index.query.SimpleIndexQueryParserTests;setup();36884807b3cc9d660db4da062275c7fdbec8ba67;false;6.37400
+fitnesse;fitnesse.testsystems.slim.tables.SlimTableFactoryTest;setUp();4d9ba9d221d879507440feb084fa7521b95111ec;false;5.62200
+fitnesse;fitnesse.testsystems.slim.tables.SlimTableFactory;SlimTableFactory();4d9ba9d221d879507440feb084fa7521b95111ec;true;5.13600
+cloud-slang;io.cloudslang.lang.api.SlangImpl;getAllEventTypes();20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76;false;1.58500
+cloud-slang;io.cloudslang.lang.api.SlangImplTest;ALL_EVENTS_SIZE;20bac30d9bd76569aa6a4fa1e8261c1a9b5e6f76;false;1.09800
+spring-boot;org.springframework.boot.jta.atomikos.AtomikosProperties;asProperties();6664ce19d6f2388ebd6cf54763f54fdddd226b9a;not-found;0.01100
+spring-boot;org.springframework.boot.jta.atomikos.AtomikosPropertiesTests;testProperties();6664ce19d6f2388ebd6cf54763f54fdddd226b9a;not-found;0.00100
+spring-boot;org.springframework.boot.jta.atomikos.AtomikosPropertiesTests;testDefaultProperties();6664ce19d6f2388ebd6cf54763f54fdddd226b9a;not-found;0.00100
+spring-boot;org.springframework.boot.autoconfigure.mongo.MongoProperties;builder(MongoClientOptions);958a0a45f164601d01cb706c19f22ed3e25eff56;false;5.17200
+spring-boot;org.springframework.boot.loader.archive.ExplodedArchiveTests;getUrl();af20dc6cc45c032573413c401f9f73aa75371744;false;0.00200
+spring-boot;org.springframework.boot.loader.archive.ExplodedArchive;getUrl();af20dc6cc45c032573413c401f9f73aa75371744;false;0.00100
+spring-boot;org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration;cacheManager(RedisTemplate<Object,Object>);c93ea54ea3e08eaa2a17640d5d2b3e60264c1a9c;not-found;0.00200
+spring-boot;org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactory;createDeploymentManager(ServletContextInitializer);ea8107b6a53fa60b5f23b33e1b6d2e88bb60133c;false;2.63000
+spring-boot;org.springframework.boot.context.web.SpringBootServletInitializer;createRootApplicationContext(ServletContext);3444ebbc05b99a164474c14d6a6784f749514428;false;2.01800
+spring-boot;org.springframework.boot.context.web.SpringBootServletInitializer;createRootApplicationContext(ServletContext);074771ec125dd407af0282b92960e9e9e3377e84;true;2.58300
+spring-boot;org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer;logAutoConfigurationReport(boolean);fdd3f12ee0f92ac18844c08bf71df39feebb6673;false;3.77100
+spring-boot;org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;customizeConnector(Connector);2d4e68a9777601bfb8309c94d8b74bc21be80ad1;false;2.33900
+quickml;quickdt.experiments.OutOfTimeCrossValidatorRunner;getRandomForestBuilder(int, int);bae968d9a85c0501ba8842a6f88e7fc2c6b78693;false;1.72300
+vavr;javaslang.collection.HashSet;of(T);204635d9156b498079c2f34b821dca7ca1711ef6;not-found;0.00000
+vavr;javaslang.collection.LinkedHashSet;of(T);204635d9156b498079c2f34b821dca7ca1711ef6;not-found;0.00000
+vavr;javaslang.collection.CharSeq;of(char);204635d9156b498079c2f34b821dca7ca1711ef6;not-found;0.00000
+vavr;javaslang.collection.Iterator;of(T);204635d9156b498079c2f34b821dca7ca1711ef6;not-found;0.00000
+crawler4j;edu.uci.ics.crawler4j.parser.Parser;parse(Page, String);6fdb8f27b53c5d69b552341a459d0e1fa610f68d;false;0.00000
